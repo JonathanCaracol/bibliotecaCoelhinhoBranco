@@ -1,5 +1,5 @@
 <?php
-define("GLOBALPATH","../img/");
+define("GLOBALPATH","");
 
 function substrNew($texto,$num){
     $subTxt=substr($texto,0,$num);
@@ -7,7 +7,7 @@ function substrNew($texto,$num){
     $termina=false;
     do{
         $pos=$pos1;
-        $pos1=strpos($subTxt,' ',$pos1+1);
+        $pos1=@strpos($subTxt,' ',$pos+1);
     }while($pos1!==false);
     return(substr($subTxt,0,$pos));
 }

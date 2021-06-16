@@ -1,8 +1,0 @@
-[12-Jun-2019 13:33:31 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 3
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 6
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 9
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
-[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26

@@ -35,13 +35,13 @@ drawTop();
             $res=mysqli_query($con,$sql);
             while($dados=mysqli_fetch_array($res)){
                 echo"<tr>";
-                echo"<th scope=\"row\">".$dados['livroId']."</th>";
+                echo"<th scope=\"row\">".$dados['requisicaoId']."</th>";
                 echo"<td><img src=\"../".GLOBALPATH.$dados['livroCapaURL']."\" width=\"60\"> </td>";
                 echo"<td>".$dados['livroTitulo']."</td>";
                 echo"<td>".$dados['utilizadorNome']."</td>";
                 echo"<td>".$dados['requisicaoDataLeva'].'<br>('.$dados['dias'].")</td>";
                 echo"<td>".$dados['livroEstado']."</td>";
-                echo"<td><a style='color: #ffc107;' href=\"AJAXdevolve.php?id=".$dados['livroId']."\" class=\"btn \"><span class=\"fas fa-edit\" ></span> <span>Devolver </span></a>
+                echo"<td><a style='color: #ffc107;' href=\"AJAXdevolve.php?id=".$dados['requisicaoId']."\" class=\"btn \"><span class=\"fas fa-edit\" ></span> <span>Devolver </span></a>
         </td>";
 
                 echo"</tr>";

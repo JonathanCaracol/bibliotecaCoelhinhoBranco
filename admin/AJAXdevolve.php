@@ -12,7 +12,12 @@ include_once ("../common.php");
 $id=intval($_GET['id']);
 
 
-$sql="update 06hugo_livros set livroEstado='disponivel' where livroId=".$id;
+$sql="update 06hugo_requisicoes set requisicaoDataTraz=now() where requisicaoId=".$id;
+
+
+mysqli_query($con,$sql);
+
+$sql="update 06hugo_livros inner join 06hugo_requisicoes on livroId=requisicaoLivroId set livroEstado='disponivel' where requisicaoId=".$id;
 
 
 mysqli_query($con,$sql);
