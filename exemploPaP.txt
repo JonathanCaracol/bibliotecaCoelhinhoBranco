@@ -1,0 +1,22 @@
+1 passo:
+
+Adiciona Autor:
+
+	David Walliams
+
+2 passo:
+
+Adiciona género(caso não exista já):
+
+	aventura
+
+3 passo:
+
+Adiciona livro:
+
+	Koiza
+
+	Esta é a história de uma criança que tinha tudo mas, ainda assim, queria mais – uma koizinha mais.
+	Sim, Magda tinha tudo. Mas “tudo” não era suficiente. E quando informa os pais de que quer uma KOIZA, os pais até tentam, mas o problema é que não fazem ideia do que é uma KOIZA…
+	É assim que o Sr. e a Sra. Manso partem para as catacumbas da biblioteca da cidade, em busca da misteriosa MONSTROPÉDIA. Lá encontrarão tudo sobre o paradeiro das criaturas mais raras do universo. Resta saber se a KOIZA também lá vive…
+	Uma fantasia deliciosa e muito tola sobre dois pais perfeitamente simpáticos e uma filha absolutamente monstruosa – com a participação especial de... uma KOIZA!

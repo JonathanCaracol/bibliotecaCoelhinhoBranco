@@ -1,0 +1,858 @@
+[12-Jun-2019 13:33:31 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 3
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 6
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 9
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:33:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:51:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 3
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 6
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 9
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:51:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:54:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:54:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:54:51 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:54:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:56:03 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 14
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 20
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 22
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetPessoas.php on line 26
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 3
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 6
+[12-Jun-2019 13:56:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/AJAXgetAutor.php on line 9
+[12-Jun-2019 15:19:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 23
+[12-Jun-2019 15:21:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 23
+[12-Jun-2019 15:21:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 23
+[12-Jun-2019 15:24:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 23
+[12-Jun-2019 16:01:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/espredu/public_html/pap2019/06hugo/admin/novoUtilizador.php on line 29
+[12-Jun-2019 16:01:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/novoUtilizador.php on line 27
+[07-Jul-2019 23:13:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 26
+[07-Jul-2019 23:13:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 24
+[07-Jul-2019 23:13:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:13:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/autores.php on line 23
+[07-Jul-2019 23:13:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/generos.php on line 23
+[07-Jul-2019 23:14:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 24
+[07-Jul-2019 23:14:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/config.inc.php:9) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoTipo.php on line 7
+[07-Jul-2019 23:14:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 24
+[07-Jul-2019 23:14:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 24
+[07-Jul-2019 23:14:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/generos.php on line 23
+[07-Jul-2019 23:14:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/autores.php on line 23
+[07-Jul-2019 23:14:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/tipos.php on line 24
+[07-Jul-2019 23:14:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[07-Jul-2019 23:14:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/utilizadores.php on line 25
+[09-Jul-2019 08:44:30 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaEditaLivro.php on line 1
+[09-Jul-2019 08:53:39 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 09:12:42 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:43 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:44 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:44 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:45 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:46 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:12:58 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:16 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:32 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:33 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:34 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:34 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:34 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:13:50 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:15:19 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:15:50 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:07 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:08 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:08 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:08 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:08 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:09 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:09 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:14 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:16:16 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:02 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:02 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:02 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:02 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:03 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:03 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:03 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:03 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:03 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:04 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:04 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:04 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:04 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:04 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:05 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:05 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:05 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:05 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:10 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:11 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:12 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:13 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:14 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:15 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:15 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:21:22 UTC] PHP Fatal error:  Call to undefined function phpheader() in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:22:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:23:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:23:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 09:23:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:37 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:29:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoAutor.php on line 6
+[09-Jul-2019 10:29:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:29:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:30:01 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:30:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:30:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:31:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:32:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:32:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:32:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:32:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:32:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:33:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:33:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:34:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:34:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:34:23 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:35:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:35:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:35:44 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:36:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:36:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:36:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:36:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:36:33 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:37:03 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:37:04 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:37:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:06 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:37:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:37:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaEditaGenero.php on line 9
+[09-Jul-2019 10:39:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:39:15 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 10:40:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:40:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:40:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:40:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:40:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 10:40:47 UTC] PHP Parse error:  syntax error, unexpected '$titulo' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoLivro.php on line 1
+[09-Jul-2019 11:02:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoTipo.php on line 7
+[09-Jul-2019 11:02:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:02:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:03:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:03:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoUtilizador.php on line 9
+[09-Jul-2019 11:03:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 11:03:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoUtilizador.php on line 9
+[09-Jul-2019 12:39:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaNovoTipo.php on line 7
+[09-Jul-2019 12:39:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 12:39:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:13:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:14:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:14:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:14:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:15:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:15:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:16:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:22:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:22:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:23:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:24:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:24:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:26:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:26:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:27:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:27:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:27:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:27:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:27:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:29:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:29:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:30:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:30:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:33:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:37:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 13:37:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php:1) in /home/espredu/public_html/pap2019/06hugo/admin/includes/body.inc.php on line 1
+[09-Jul-2019 15:09:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/espredu/public_html/pap2019/06hugo/admin/novoLivro.php on line 41
+[09-Jul-2019 15:10:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/espredu/public_html/pap2019/06hugo/admin/novoLivro.php on line 41
+[09-Jul-2019 16:15:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[09-Jul-2019 23:22:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[09-Jul-2019 23:38:29 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:47:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:48:07 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:48:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 00:48:24 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 00:50:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:50:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:50:14 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 00:50:14 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:04:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:04:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:10:42 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:10:42 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:10:42 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:10:42 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:11:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:11:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:11:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:11:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:11:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 01:11:54 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 01:12:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 01:12:05 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 01:12:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:12:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:12:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:12:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:14:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:14:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:14:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:14:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:15:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:15:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:15:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:15:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:17:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:17:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:17:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 01:17:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:00:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:03:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:04:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:04:55 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:05:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:05:01 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:05:58 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:06:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:06:06 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:07:00 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:09:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:09:26 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:10:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:10:32 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:15:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:15:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:17:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:17:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:17:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 14
+[10-Jul-2019 11:18:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 18
+[10-Jul-2019 11:19:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 18
+[10-Jul-2019 11:20:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaUtilizador.php on line 18
+[10-Jul-2019 11:21:25 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:22:01 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:24:12 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:24:22 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:25:57 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:27:13 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 1
+[10-Jul-2019 11:30:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php:5) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaUtilizador.php on line 8
+[10-Jul-2019 11:35:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:35:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:35:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:35:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:35:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 11:35:29 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 11:36:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:36:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:36:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:36:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:38:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:38:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:38:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:38:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:19 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:19 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:19 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:19 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 11:39:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 12:53:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:00:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:00:57 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 13:03:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:03:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:03:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:03:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:03:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:03:36 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/espredu/public_html/pap2019/06hugo/admin/confirmaApagaLivro.php on line 1
+[10-Jul-2019 13:04:52 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:52 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:52 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:52 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:04:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:04:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:05:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:05:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:05:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:05:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:05:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:05:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:10:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:10:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:10:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:10:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:10:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:10:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:16:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:16:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:16:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:16:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/apagaLivro.php on line 14
+[10-Jul-2019 13:17:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:17:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:18:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:20:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:20:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:20:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:20:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:25:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:49 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:49 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:49 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:49 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:26:57 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:27:01 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:27:01 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:27:07 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:27:07 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 13:27:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  include_once(../common.php): failed to open stream: No such file or directory in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 2
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  include_once(): Failed opening '../common.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 2
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  include_once(admin/includes/body.inc.php): failed to open stream: No such file or directory in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 3
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  include_once(): Failed opening 'admin/includes/body.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 3
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 327
+[10-Jul-2019 14:34:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 328
+[11-Jul-2019 15:41:12 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 15:41:29 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 17:59:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 17:59:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:18:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:18:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:23:12 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:23:12 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:23:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/espredu/public_html/pap2019/06hugo/admin/editaLivro.php on line 62
+[11-Jul-2019 18:27:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/editaLivro.php on line 8
+[11-Jul-2019 18:33:50 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:33:50 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:37:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:37:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:38:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 18:38:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 20:27:23 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 20:27:23 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 20:33:25 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[11-Jul-2019 20:33:25 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[12-Jul-2019 13:44:36 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[12-Jul-2019 13:44:36 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[14-Jul-2019 14:04:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[14-Jul-2019 17:04:42 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:18:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:13 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:21:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 01:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:38:28 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:39:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 02:43:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 04:45:56 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:51:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:51:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:51:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:51:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:51:54 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 10:52:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:06:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:06:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:06:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:06:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:06:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:15:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:15:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:15:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:15:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 11:15:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 13:21:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 13:21:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 13:21:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 13:21:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 13:21:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:08:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:08:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:08:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:08:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:08:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:45:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:45:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:45:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:45:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:45:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:46:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:46:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:46:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:46:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:46:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:47:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:47:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:47:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:47:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 14:47:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 17:04:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 18:51:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 18:51:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 18:51:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 18:51:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 18:51:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[15-Jul-2019 19:32:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 10:58:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 10:58:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 10:58:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 10:58:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 10:58:58 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[16-Jul-2019 14:45:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 34
+[17-Jul-2019 17:13:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:32 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:39 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:39 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:39 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:13:39 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:14:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:14:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[17-Jul-2019 17:14:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[18-Jul-2019 09:27:59 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[18-Jul-2019 09:27:59 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[18-Jul-2019 09:27:59 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 11
+[18-Jul-2019 13:41:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 13:41:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 13:41:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 14:22:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 14:22:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 14:22:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 19:25:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 19:25:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 19:25:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:29 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:29 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:29 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:12:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:17:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:17:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:17:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:19:45 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:19:45 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:19:45 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:20:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:20:06 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:20:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:20:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[18-Jul-2019 23:21:20 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 9
+[21-Jul-2019 17:27:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:27:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:36:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:36:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:36:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:37:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:37:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:40:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:40:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:46:48 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:46:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:46:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:47:24 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:47:24 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:47:25 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 37
+[21-Jul-2019 17:48:00 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:01 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:01 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:02 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:02 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:02 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:03 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:03 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:03 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:03 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:03 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:48:08 UTC] PHP Parse error:  syntax error, unexpected 'requisitado' (T_STRING) in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 33
+[21-Jul-2019 17:49:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 17:49:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 17:49:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 17:50:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:50:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:58:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:58:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:58:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 17:58:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 35
+[21-Jul-2019 18:02:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 18:02:35 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 21:19:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 21:19:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 36
+[21-Jul-2019 21:23:30 UTC] PHP Warning:  Illegal string offset 'dias' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 42
+[21-Jul-2019 21:23:30 UTC] PHP Warning:  Illegal string offset 'dias' in /home/espredu/public_html/pap2019/06hugo/admin/index.php on line 42
+[22-Jul-2019 00:44:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:31:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:32:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:32:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:32:10 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:32:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 04:41:07 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 09:05:51 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 09:52:40 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 09:54:01 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 09:54:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 09:54:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 10:04:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[22-Jul-2019 10:05:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:32:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:17 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:21 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:38 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:43 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:51:51 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:52:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:52:25 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:52:30 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:52:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:52:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:02 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:08 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:14 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:41 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:53:45 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:54:35 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:54:46 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:55:25 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:55:52 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:55:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:56:00 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 02:56:03 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:03:39 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:03:44 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:03:49 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:03:50 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:03:55 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:04:37 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:04:38 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:04:40 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:05:12 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:05:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:05:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:05:48 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:07:47 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:07:48 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:07:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:11 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:16 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:22 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:26 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:08:48 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:09:05 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:09:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:11:14 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:24:04 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:25:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:25:15 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:25:34 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:25:48 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:26:31 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:27:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:27:24 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:27:33 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:30:18 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:36:27 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 03:36:36 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 04:35:48 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 04:35:53 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 05:01:09 UTC] PHP Warning:  strpos(): Offset not contained in string in /home/espredu/public_html/pap2019/common.php on line 10
+[23-Jul-2019 12:47:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/editaLivro.php on line 24
+[23-Jul-2019 12:47:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/espredu/public_html/pap2019/06hugo/admin/editaLivro.php on line 24
+[23-Jul-2019 12:53:17 UTC] PHP Fatal error:  Call to undefined function mssql_num_rows() in /home/espredu/public_html/pap2019/06hugo/admin/confirmaEditaLivro.php on line 28

@@ -1,0 +1,745 @@
+<div class="modal fade right" id="modalRequisitaVerMais" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Requisista -->
+
+
+
+
+
+<div class="modal fade right" id="modalRequisitaPrincipal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+
+
+
+
+    <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+
+
+
+
+
+    <div class="modal-dialog modal-side modal-top-right " role="document">
+
+
+
+
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title w-100">Requisitar</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <img id="imagemLivro" class="card-img-top" src="img/gen.jpg" alt="">
+                            <div class="col-xs-2">
+                                <!--
+
+                                  <br> <input type="text" class="form-control" id="tituloId">
+
+
+
+                                  <button onclick="myFunction()" type="button" class="btn btn-outline-success">ok</button>
+
+
+
+                                -->
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="form-group row mt-2">
+                                <br><label for="nome" class="col-2 col-form-label">Titulo:</label>
+                                <div class="col-10">
+                                    <input type="text" class="form-control" id="searchTituloPrincipal">
+                                </div>
+                            </div>
+                            <div class="row w-100">
+                                <div id="resultadosPrincipal" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" align="left">
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-dismiss="modal" data-target="#reqFinal">Requisitar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Ultimo modal -->
+
+
+
+
+
+<div class="modal fade" id="reqFinal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+
+
+
+
+    <!-- Change class .modal-sm to change the size of the modal -->
+
+
+
+
+
+    <div class="modal-dialog modal-sm" role="document">
+
+
+
+
+
+        <div class="modal-content">
+
+
+
+
+
+            <div class="modal-header">
+
+
+
+
+
+                <h4 class="modal-title w-100" id="myModalLabel1">Livro Requesitado</h4>
+
+
+
+
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+
+
+
+
+                    <span aria-hidden="true">&times;</span>
+
+
+
+
+
+                </button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="modal-footer">
+
+
+
+
+
+                <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Sair</button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- Devolução Modal -->
+
+
+
+<div class="modal fade right" id="sideModalTRDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+
+
+
+
+    <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+
+
+
+
+
+    <div class="modal-dialog modal-side modal-top-right " role="document">
+
+
+
+
+
+        <div class="modal-content">
+
+
+
+
+
+            <div class="modal-header">
+
+
+
+
+
+                <h4 class="modal-title w-100">Devoluções</h4>
+
+
+
+
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+
+
+
+
+                    <span aria-hidden="true">&times;</span>
+
+
+
+
+
+                </button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="modal-body">
+
+
+
+
+
+                <div class="modal-body">
+
+
+
+
+
+                    <div class="row">
+
+
+
+
+
+                        <div class="col-4">
+
+
+
+
+
+                            <img id="imagemLivro" class="card-img-top" src="img/gen.jpg" alt="">
+
+
+
+
+
+                            <div class="col-xs-2">
+
+
+
+
+
+                                <!--
+
+                                  <br> <input type="text" class="form-control" id="tituloId">
+
+
+
+                                  <button onclick="myFunction()" type="button" class="btn btn-outline-success">ok</button>
+
+
+
+                                -->
+
+
+
+
+
+                                <span></span>
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="col-8">
+
+
+
+
+
+                            <div class="form-group row mt-2">
+
+
+
+
+
+                                <br><label for="nome" class="col-2 col-form-label">Titulo:</label>
+
+
+
+
+
+                                <div class="col-10">
+
+
+
+
+
+                                    <input type="text" class="form-control" id="searchTituloPrincipal">
+
+
+
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                            <div class="row w-100">
+
+
+
+
+
+                                <div id="resultadosPrincipal" class="w-100">
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="modal-footer" align="left">
+
+
+
+
+
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
+
+
+
+
+
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-dismiss="modal"
+                    data-target="#reqFinal">Requisitar
+
+
+
+
+
+                </button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+<div class="modal fade right" id="sideModalTRDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog modal-side modal-top-right" role="document">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h4 class="modal-title w-100">Devoluções</h4>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                    <span aria-hidden="true">&times;</span>
+
+                </button>
+
+            </div>
+
+            <div class="modal-body" style="height: 199px; width: 217px" ;>
+
+                <div class="modal-body">
+
+                    <div class="row">
+
+                        <div class="col-4">
+
+                            <img class="card-img-top" src="img/gen.jpg" alt="">
+
+                        </div>
+
+                        <div class="col-8">
+
+
+
+                            <div class="form-group row mt-2">
+
+
+
+
+
+                                <br><label for="nome" class="col-2 col-form-label">Titulo(PrimeiroModal):</label>
+
+
+
+
+
+                                <div class="col-10">
+
+
+
+
+
+                                    <input type="text" class="form-control" id="searchTituloPrincipal">
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                                <br><br>
+
+
+
+
+
+
+
+                            </div>
+
+
+
+                            <div class="row w-100">
+
+
+
+
+
+                                <div id="resultados" class="w-100">
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="modal-footer" align="left">
+
+
+
+
+
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
+
+
+
+
+
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-dismiss="modal"
+                    data-target="#reqFinal">Devolver
+
+
+
+
+
+                </button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- Ultimo modal devolver -->
+
+
+
+
+
+<div class="modal fade" id="DevFinal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+
+
+
+
+    <!-- Change class .modal-sm to change the size of the modal -->
+
+
+
+
+
+    <div class="modal-dialog modal-sm" role="document">
+
+
+
+
+
+        <div class="modal-content">
+
+
+
+
+
+            <div class="modal-header">
+
+
+
+
+
+                <h4 class="modal-title w-100" id="myModalLabel">Livro Devolvido com Sucesso</h4>
+
+
+
+
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+
+
+
+
+                    <span aria-hidden="true">&times;</span>
+
+
+
+
+
+                </button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="modal-footer">
+
+
+
+
+
+                <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Sair</button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
