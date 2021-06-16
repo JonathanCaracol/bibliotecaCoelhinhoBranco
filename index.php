@@ -816,7 +816,7 @@ include_once("common.php");
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)) {
                                                 ?>
-                                                <option value="<?php echo $livros["livroTitulo"]; ?>"><?php echo $livros['livroTitulo'] ?></option>
+                                                <option value="<?php echo $livros["livroId"];?>"><?php echo $livros['livroTitulo'] ?></option>
                                             <?php
                                             }
                                             ?>
