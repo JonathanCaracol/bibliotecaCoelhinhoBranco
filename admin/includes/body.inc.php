@@ -26,6 +26,124 @@ function drawTop($menu = true)
 
         <script src="js/bootstrap.js"></script>
 
+        <script>
+            // Automatic Slideshow - change image every 3 seconds
+            var myIndex = 0;
+
+            function carousel() {
+                var i;
+
+                var x = document.getElementsByClassName("mySlides");
+
+
+                for (i = 0; i < x.length; i++) {
+
+
+                    x[i].style.display = "none";
+
+
+                }
+
+
+                myIndex++;
+
+
+                if (myIndex > x.length) {
+
+
+                    myIndex = 1
+
+
+                }
+
+
+                x[myIndex - 1].style.display = "block";
+
+
+                setTimeout(carousel, 2000);
+
+
+            }
+
+            function filtraDadosUtilizadores(n, txt) {
+                $.ajax({
+                    url: "AJAXfillListaUtilizadores.php",
+                    type: "post",
+                    data: {
+                        nLivros: n,
+                        texto: txt
+                    },
+                    success: function(result) {
+                        $('#listaLivros').html(result);
+                    }
+                });
+            }
+
+
+
+
+
+            function fillBook(id) {
+
+                $.ajax({
+                    url: "AJAXfillLivro.php",
+                    type: "post",
+                    data: {
+                        livroId: id,
+                        versao: 1
+                    },
+                    success: function(result) {
+                        $('#verMais').html(result);
+                        $('#verMais').modal('toggle');
+                    }
+                });
+            }
+
+            function fillResults(txt) {
+                $.ajax({
+                    url: "AJAXfillRequisicao.php",
+                    type: "post",
+                    data: {
+                        txt: txt
+                    },
+                    success: function(result) {
+                        $('#resultadosPrincipal').html(result);
+                    }
+                });
+            }
+
+            $('document').ready(function() {
+
+
+
+                carousel();
+                filtraDados(8, '');
+                $("#searchTituloPrincipal").keyup(function() {
+
+                    fillResults($(this).val());
+                });
+                $("#searchNome").keyup(function() {
+                    alert();
+                    //fillResults($(this).val());
+                });
+
+
+
+                $("#search").focusout(function() {
+                    $(this).val('');
+                    //filtraDados(8);
+                })
+            });
+        </script>
+
+
+
+
+
+
+
+
+
     </head>
 
 <body>    <?php if ($menu) { ?>

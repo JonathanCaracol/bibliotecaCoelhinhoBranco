@@ -812,7 +812,7 @@ include_once("common.php");
                                         <input type="text" class="form-control" id="livroRequisitar" list="livros">
                                         <datalist id="livros">
                                             <?php
-                                            $query = "SELECT * FROM 06hugo_livros";
+                                            $query = "SELECT * FROM 06hugo_livros where livroEstado='disponivel'";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)) {
                                                 ?>
@@ -865,8 +865,8 @@ include_once("common.php");
                                 <div class="form-group row mt-2">
                                     <br><label for="nome" class="col-2 col-form-label">Livro:</label>
                                     <div class="col-10">
-                                        <input type="text" class="form-control" id="devolverLivro" list="livros">
-                                        <datalist id="livros">
+                                        <input type="text" class="form-control" id="devolverLivro" list="livrosD">
+                                        <datalist id="livrosD">
                                             <?php
                                             $query = "SELECT * FROM 06hugo_livros inner join 06hugo_requisicoes on livroId=requisicaoLivroId where requisicaoDataTraz is null and livroEstado='requisitado'";
                                             $resultado = mysqli_query($con, $query);
