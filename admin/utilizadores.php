@@ -5,30 +5,6 @@ drawTop();
 
 
 <section><h1 style="font-family: 'Agency FB'" align="center">Utilizadores</h1>
-
-    <div align="center" class="col-9 ">
-
-
-        <div class="row mb-2">
-
-
-            <div class="col-1" align="right">Pesquisa:</div>
-
-
-            <div class="col-5"><input id="search" class="form-control" onkeyup="filtraDadosUtilizadores(-1,$(this).val())">
-
-
-            </div>
-
-
-        </div>
-
-
-
-
-
-    </div>
-
     <div class="table-responsive">
         <table class="table table-sm table-dark">
 
