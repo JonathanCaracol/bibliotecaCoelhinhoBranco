@@ -12,7 +12,7 @@ $texto="";
 if(($_FILES['imagem']['name']!=''))
 {
     $imagem=$_FILES['imagem']['tmp_name'];
-    $file='.jpg';
+    $file='Imagens/.jpg';
     uploadFile($imagem,'../'.GLOBALPATH.$file);
     $texto=", livroCapaURL='$file'";
 }
@@ -54,7 +54,5 @@ if($generoId != -1){
     }
 }
 
-echo $texto;
-echo $id;
-//header("location:livros.php");
+header("location:livros.php");
 ?>
