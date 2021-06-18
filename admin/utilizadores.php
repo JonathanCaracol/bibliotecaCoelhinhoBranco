@@ -4,7 +4,7 @@ drawTop();
 ?>
 
 
-<section><h1 style="font-family: 'Agency FB'" align="center">Utilizadores</h1>
+<section><h1 style="font-family: 'Agency FB'" align="center">Utilizadoreoasdadss</h1>
     <div class="table-responsive">
         <table class="table table-sm table-dark">
 

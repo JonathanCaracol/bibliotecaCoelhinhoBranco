@@ -49,7 +49,7 @@ while($dados=mysqli_fetch_array($res)) {
                 </thead>
                 <tbody>
                 <?php
-                $sql="select * from 06hugo_autores";
+                $sql="select * from 06hugo_";
                 $res=mysqli_query($con,$sql);
                 while($dados=mysqli_fetch_array($res)){
                     echo"<tr>";
