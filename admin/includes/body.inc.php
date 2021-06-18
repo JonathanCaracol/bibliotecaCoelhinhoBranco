@@ -70,11 +70,11 @@ function drawTop($menu = true)
                     url: "AJAXfillListaUtilizadores.php",
                     type: "post",
                     data: {
-                        nLivros: n,
+                        $nUtilizadores: n,
                         texto: txt
                     },
                     success: function(result) {
-                        $('#listaLivros').html(result);
+                        $('#listaUtilizadores').html(result);
                     }
                 });
             }
@@ -83,34 +83,7 @@ function drawTop($menu = true)
 
 
 
-            function fillBook(id) {
 
-                $.ajax({
-                    url: "AJAXfillLivro.php",
-                    type: "post",
-                    data: {
-                        livroId: id,
-                        versao: 1
-                    },
-                    success: function(result) {
-                        $('#verMais').html(result);
-                        $('#verMais').modal('toggle');
-                    }
-                });
-            }
-
-            function fillResults(txt) {
-                $.ajax({
-                    url: "AJAXfillRequisicao.php",
-                    type: "post",
-                    data: {
-                        txt: txt
-                    },
-                    success: function(result) {
-                        $('#resultadosPrincipal').html(result);
-                    }
-                });
-            }
 
             $('document').ready(function() {
 
@@ -131,7 +104,7 @@ function drawTop($menu = true)
 
                 $("#search").focusout(function() {
                     $(this).val('');
-                    //filtraDados(8);
+                    //filtraDadosUtilizadores(8);
                 })
             });
         </script>
