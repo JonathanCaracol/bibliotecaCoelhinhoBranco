@@ -1,10 +1,11 @@
+
 <?php
 include_once ("includes/body.inc.php");
 drawTop();
 ?>
 
 
-<section><h1 style="font-family: 'Agency FB'" align="center">Utilizadoreoasdadss</h1>
+<section><h1 style="font-family: 'Agency FB'" align="center">Utilizadores@1234</h1>
     <div class="table-responsive">
         <table class="table table-sm table-dark">
 
