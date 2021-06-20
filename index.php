@@ -22,7 +22,7 @@ include_once("common.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>Biblioteca Jardim de Infância da Boavista</title>
+    <title>Biblioteca Jardim de Infância da Boavista e arredores...</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -455,10 +455,7 @@ include_once("common.php");
         }
 
         $('document').ready(function() {
-            $("#searchNome").keyup(function (){
-               // $("#resultadosPesquisa").html('ah e tal');
-                alert();
-            })
+
 
 
             carousel();
@@ -819,7 +816,7 @@ include_once("common.php");
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)) {
                                                 ?>
-                                                <option value="<?php echo $livros["livroId"]; ?>"><?php echo $livros['livroTitulo'] ?></option>
+                                                <option value="<?php echo $livros["livroId"];?>"><?php echo $livros['livroTitulo'] ?></option>
                                             <?php
                                             }
                                             ?>
@@ -871,7 +868,7 @@ include_once("common.php");
                                         <input type="text" class="form-control" id="devolverLivro" list="livros">
                                         <datalist id="livros">
                                             <?php
-                                            $query = "SELECT * FROM 06hugo_livros";
+                                            $query = "SELECT * FROM 06hugo_livros inner join 06hugo_requisicoes on livroId=requisicaoLivroId where requisicaoDataTraz is null and livroEstado='requisitado'";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)){
                                                 ?>

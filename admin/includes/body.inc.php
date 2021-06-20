@@ -26,6 +26,8 @@ function drawTop($menu = true)
 
         <script src="js/bootstrap.js"></script>
 
+
+
     </head>
 
 <body>    <?php if ($menu) { ?>

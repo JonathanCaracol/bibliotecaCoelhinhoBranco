@@ -12,7 +12,7 @@ $texto="";
 if(($_FILES['imagem']['name']!=''))
 {
     $imagem=$_FILES['imagem']['tmp_name'];
-    $file='06hugo/'.time().chr(rand(65,90)).'.jpg';
+    $file='Imagens/.jpg';
     uploadFile($imagem,'../'.GLOBALPATH.$file);
     $texto=", livroCapaURL='$file'";
 }
@@ -53,7 +53,6 @@ if($generoId != -1){
         mysqli_query($con, $sql);
     }
 }
-
 
 header("location:livros.php");
 ?>
