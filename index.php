@@ -805,22 +805,29 @@ include_once("common.php");
                                     <span></span>
                                 </div>
                             </div>
+                            <script>
+                                $(".js-example-tokenizer").select2({
+                                    tags: true,
+                                    tokenSeparators: [',', ' ']
+                                }) </script>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                            <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
                             <div class="col-8">
                                 <div class="form-group row mt-2">
                                     <br><label for="nome" class="col-2 col-form-label">Livro:</label>
                                     <div class="col-10">
-                                        <input type="text" class="form-control" id="livroRequisitar" list="livros">
-                                        <datalist id="livros">
+                                        <select class="form-control js-example-tags" id="livroRequisitar">
                                             <?php
                                             $query = "SELECT * FROM 06hugo_livros";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)) {
                                                 ?>
                                                 <option value="<?php echo $livros["livroId"];?>"><?php echo $livros['livroTitulo'] ?></option>
-                                            <?php
+                                                <?php
                                             }
                                             ?>
-                                        </datalist>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="row w-100">
