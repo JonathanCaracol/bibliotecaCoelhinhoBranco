@@ -36,9 +36,6 @@ function mostraRequisitados(id){
 ++++++++++++++++++++++++++++++++++++++++ffffff
 
 
-
-
-
         },
         success: function (result) {
             $('#resultadosPesquisa').html(result);
