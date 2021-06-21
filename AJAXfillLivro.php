@@ -38,8 +38,16 @@ $dados = mysqli_fetch_array($res);
                         ?>
                         <div class="col-8">
                             <div class="form-group">
+                                <!-- preencher com os utilizadores *************************  -->
+                                <select id="aa">
+                                    <option value="1">Um</option>
+                                    <option value="2">Dois</option>
+                                    <option value="3">Tres</option>
+                                </select>
+                                <!-- ********************************************************* -->
                                 <label for="nome">Utilizador:</label>
                                 <input type="text" class="form-control" id="searchNome" list="users">
+
                                 <datalist id="users">
                                     <?php
                                     $query = "SELECT * FROM 06hugo_utilizadores";
@@ -76,11 +84,11 @@ $dados = mysqli_fetch_array($res);
     </div>
 </div>
 <script>
-    $("#searchNome").change(function (){
-        $("#resultadosPesquisa").html('ah e tal');
 
-    })
-    $("#searchNome").click(function (){
-        $("#resultadosPesquisa").html('ah e tal');
-    })
+    $('#aa').on('change', function (e) {
+        id=this.value;
+        mostraRequisitados(id);
+
+    });
+
 </script>
