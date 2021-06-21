@@ -8,7 +8,7 @@
 
         $sql = "INSERT INTO 06hugo_requisicoes (requisicaoDataLeva, requisicaoUtilizadorId, requisicaoLivroId) VALUES (NOW(), ".addslashes($_POST["userId"]).", ".intval($_POST["livroId"]).")";
         mysqli_query($con, $sql);
-        echo $requisicaoId = mysqli_insert_id($con);
+        echo $requisicaoId = mysqli_insert_id($con);;;
     }
 
 ?>

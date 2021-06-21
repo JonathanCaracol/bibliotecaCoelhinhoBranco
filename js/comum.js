@@ -33,7 +33,7 @@ function mostraRequisitados(id){
         type: "post",
         data: {
             txt: txt
-
++++++++++++++++++++++++++++++++
 
 
 
