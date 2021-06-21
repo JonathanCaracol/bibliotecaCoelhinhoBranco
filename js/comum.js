@@ -33,10 +33,18 @@ function mostraRequisitados(id){
         type: "post",
         data: {
             txt: txt
+
+
+
+
         },
         success: function (result) {
             $('#resultadosPesquisa').html(result);
         }
     });
      */
+
+
+
+
 }
