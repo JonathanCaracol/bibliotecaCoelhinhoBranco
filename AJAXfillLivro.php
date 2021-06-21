@@ -40,6 +40,24 @@ $dados = mysqli_fetch_array($res);
                             <div class="form-group">
                                 <!-- preencher com os utilizadores *************************  -->
                                 <select id="aa">
+                                    <option value="-1">Escolha o Utilizador</option>
+                                    <?php
+                                    $sql = "select * from 06hugo_utilizadores order by utilizadorNome";
+                                    $resultUtilizadores = mysqli_query($con, $sql);
+                                    while ($dadosUtilizadores = mysqli_fetch_array($resultUtilizadores)) {
+                                        ?>
+                                        <option value="<?php echo $dadosUtilizadores ['utilizadorId'] ?>">
+                                            <?php echo $dadosUtilizadores ['utilizadorNome'] ?>
+                                        </option>
+                                        <?php
+                                    }
+                                    ?>
+
+                                </select>
+
+
+
+                                <select id="aa">
                                     <option value="1">Um</option>
                                     <option value="2">Dois</option>
                                     <option value="3">Tres</option>

@@ -10,6 +10,22 @@ function mostraRequisitados(id){
     alert(id);
 
 
+    $.ajax({
+        url: "AJAXFillRequisitados.php",
+        type: "post",
+        data: {
+            txt: (id)
+        },
+        success: function (result) {
+            $('#resultadosPesquisa').html(result);
+        }
+    });
+
+
+
+
+
+
 
     /*
      $.ajax({
