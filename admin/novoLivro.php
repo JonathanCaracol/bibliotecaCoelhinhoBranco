@@ -33,25 +33,28 @@ drawTop(MENUOFF);
                     <div class="form-group">
                         <label for="titulo">Autores</label>
 
-                        <input type="text" class="form-control" name="autores" list="autoresNome">
-                        <datalist id="autoresNome">
-                            <?php
-                            $sql="select * from 06hugo_autores";
-                            $res=mysqli_query($con,$sql);
+                        <select class="form-control" name="autores" list="autoresNome">
+                            <option value="-1">Escolha um genero...</option>
+                            <datalist id="autoresNome">
+                                <?php
+                                $sql="select * from 06hugo_autores";
+                                $res=mysqli_query($con,$sql);
 
-                            while($dados=mysqli_fetch_array($res)){
-                                echo "<option value=\"".$dados['autorNome']."\">".$dados['autorNome']."</option>";
-                            }
-                            ?>
-                        </datalist>
+                                while($dados=mysqli_fetch_array($res)){
+                                    echo "<option value=\"".$dados['autorNome']."\">".$dados['autorNome']."</option>";
+                                }
+                                ?>
+                            </datalist>
+                        </select>
                     </div>
 
 
 
 
                     <div class="form-group">
-                        <label for="titulo">géneros</label>
-                        <input type="text" class="form-control" name="generos" list="generoNome">
+                        <label for="titulo">Géneros</label>
+                        <select class="form-control" name="generos" list="generoNome">
+                            <option value="-1">Escolha um genero...</option>
                         <datalist id="generoNome">
                             <?php
                             $sql="select * from 06hugo_generos";
@@ -62,6 +65,7 @@ drawTop(MENUOFF);
                             ?>
 
                         </datalist>
+                        </select>
                     </div>
 
 

@@ -1,11 +1,12 @@
 <?php
+include_once('includes/body.inc.php');
+include_once('../common.php');
 $titulo = addslashes($_POST['titulo']);
 $sinopse = addslashes($_POST['sinopse']);
 $estado = addslashes($_POST['estado']);
 $autor=intval($_POST['autores']);
 $genero=intval($_POST['generos']);
-include_once('includes/body.inc.php');
-include_once('../common.php');
+
 
 $file="";
 $imagem=$_FILES['imagem']['tmp_name'];
