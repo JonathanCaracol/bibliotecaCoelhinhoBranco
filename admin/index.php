@@ -1,7 +1,7 @@
 <?php
 include_once ("includes/body.inc.php");
 include_once ("../common.php");
-drawTop();
+drawTop(1,HOME);
 ?>
 
 

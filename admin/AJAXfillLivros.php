@@ -1,6 +1,7 @@
 <?php
 include_once ("includes/body.inc.php");
 include_once ("../common.php");
+$txt=addslashes($_POST['txt']);
 ?>
     <table class="table table-sm table-dark">
 
@@ -18,7 +19,7 @@ include_once ("../common.php");
         </thead>
         <tbody>
         <?php
-        $sql="select * from 06hugo_livros";
+        $sql="select * from 06hugo_livros where livroTitulo like '%".$txt."%'";
         $res=mysqli_query($con,$sql);
         while($dados=mysqli_fetch_array($res)){
             echo"<tr>";

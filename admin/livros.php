@@ -2,7 +2,7 @@
 include_once ("includes/body.inc.php");
 include_once ("../common.php");
 
-drawTop();
+drawTop(MENUON,LIVROS);
 ?>
 
 
@@ -39,6 +39,3 @@ drawTop();
 
 </body>
 </html>
-<?php
-drawbot(LIVROS);
-?>
