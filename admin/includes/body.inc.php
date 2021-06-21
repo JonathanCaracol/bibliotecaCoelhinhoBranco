@@ -39,6 +39,26 @@ function drawTop($menu = MENUON, $opt=HOME)
                 <?php
                 }
                 ?>
+                <?php
+                if ($opt == AUTORES){
+                ?>
+                    $('#search').keyup(function () {
+                        fillTableAutores(this.value);
+                    });
+                    fillTableAutores();
+                <?php
+                }
+                ?>
+                <?php
+                if ($opt == UTILIZADORES){
+                ?>
+                    $('#search').keyup(function () {
+                        fillTableUtilizadores(this.value);
+                    });
+                    fillTableUtilizadores();
+                <?php
+                }
+                ?>
             })
         </script>
 

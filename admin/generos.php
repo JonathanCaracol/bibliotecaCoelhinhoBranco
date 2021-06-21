@@ -4,7 +4,7 @@ drawTop();
 ?>
 
 
-<section><h1 style="font-family: 'Agency FB'" align="center">Géneros</h1>
+<section><h1 style="font-family: 'Agency FB'" align="center">GÃªneros</h1>
     <div class="table-responsive">
         <table class="table table-sm table-dark">
 
@@ -25,8 +25,7 @@ drawTop();
                 echo"<tr>";
                 echo"<th scope=\"row\">".$dados['generoId']."</th>";
                 echo"<td>".$dados['generoNome']."</a></td>";
-                echo"<td><a href=\"editaGenero.php?id=".$dados['generoId']."\" class=\"btn btn-info\"><span class=\"fas fa-edit\"></span> <span>Editar </span></a>
-        </td>";
+                echo"<td><a href=\"editaGenero.php?id=".$dados['generoId']."\" class=\"btn btn-info\"><span class=\"fas fa-edit\"></span> <span>Editar </span></a>     </td>";
                 echo"<td><a href=\"apagaGenero.php?id=".$dados['generoId']."\" class=\"btn btn-danger\"><span class=\"far fa-trash-alt\"></span> <span>Eliminar </span></a></td>";
                 echo"</tr>";
             }
