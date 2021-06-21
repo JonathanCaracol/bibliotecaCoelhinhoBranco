@@ -5,11 +5,20 @@ drawTop();
 
 
 <section><h1 style="font-family: 'Agency FB'" align="center">Autores</h1>
-    <div class="table-responsive">
+
+    <div class="table-responsive" align="cenetr">
         <table class="table table-sm table-dark">
 
+        <div class="col-6">
+            <div class="col-1">Pesquisa:</div>
+
+                <div class="col-11"><input id="search" class="form-control" onkeyup="filtraDados(-1,$(this).val())">
+
+            </div>
+        </div>
             <thead>
             <tr style="color: #ffc107">
+
                 <th width="20%" scope="col">#</th>
                 <th  width="40%" scope="col">Nome</th>
                 <th width="20%"  colspan="2" scope="col">
