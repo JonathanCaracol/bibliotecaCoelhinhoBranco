@@ -65,3 +65,29 @@ function drawTop($menu = true)
 }
 
 ?>
+
+<?php
+function drawbot($menu=HOME){
+
+ ?>
+    <script  src="../js/common.js">
+    </script>
+    <script>
+        $('document').ready(function () {
+
+            <?php
+            if ($menu == LIVROS){
+            ?>
+            $('#search').keyup(function () {
+                fillTableLivros(this.value);
+            });
+            fillTableLivros();
+            <?php
+            }
+            ?>
+        })
+    </script>
+
+<?php
+}
+?>
