@@ -6,7 +6,7 @@ include_once("config.inc.php");
 
 $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
-function drawTop($menu = true)
+function drawTop($menu = MENUON, $opt=HOME)
 
 { ?>    <!DOCTYPE html>
 
@@ -25,7 +25,22 @@ function drawTop($menu = true)
         <script src="js/jquery-3.3.1.min.js"></script>
 
         <script src="js/bootstrap.js"></script>
-
+        <script  src="js/common.js"></script>
+        <script>
+            $('document').ready(function () {
+                ;
+                <?php
+                if ($opt == LIVROS){
+                ?>
+                    $('#search').keyup(function () {
+                        fillTableLivros(this.value);
+                    });
+                    fillTableLivros();
+                <?php
+                }
+                ?>
+            })
+        </script>
 
 
     </head>
@@ -64,30 +79,4 @@ function drawTop($menu = true)
 
 }
 
-?>
-
-<?php
-function drawbot($menu=HOME){
-
- ?>
-    <script  src="../js/common.js">
-    </script>
-    <script>
-        $('document').ready(function () {
-
-            <?php
-            if ($menu == LIVROS){
-            ?>
-            $('#search').keyup(function () {
-                fillTableLivros(this.value);
-            });
-            fillTableLivros();
-            <?php
-            }
-            ?>
-        })
-    </script>
-
-<?php
-}
 ?>

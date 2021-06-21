@@ -11,7 +11,7 @@ $dados = mysqli_fetch_array($res);
 <div class="modal-dialog modal-full-height modal-right" style="overflow-y:" role="document">
     <div class="modal-content">
         <div class="modal-header">
-            <h4 class="modal-title w-100"><?php echo $dados['livroTitulo'] ?></h4>
+            <h4 class="modal-title w-100">ESTE<?php echo $dados['livroTitulo'] ?></h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -26,7 +26,7 @@ $dados = mysqli_fetch_array($res);
                         <h5 class="card-body">
                             <p><strong>Numero:</strong> <?php echo $dados['livroNumero'] ?><br></p>
                             <p><strong>Autor:</strong> <?php echo $dados['autorNome'] ?><br></p>
-                            <strong>G�nero:</strong> <?php echo $dados['generoNome'] ?><br></p>
+                            <strong>Género:</strong> <?php echo $dados['generoNome'] ?><br></p>
                             <p class="text-right text-<?php echo $dados['livroEstado'] == 'disponivel' ? 'success' : 'danger'; ?>"><?php echo $dados['livroEstado'] ?></p>
                             <strong>Sinopse:</strong><br>
                             <div style="overflow-y: scroll; height:400px;">
@@ -75,3 +75,12 @@ $dados = mysqli_fetch_array($res);
         </div>
     </div>
 </div>
+<script>
+    $("#searchNome").change(function (){
+        $("#resultadosPesquisa").html('ah e tal');
+
+    })
+    $("#searchNome").click(function (){
+        $("#resultadosPesquisa").html('ah e tal');
+    })
+</script>
