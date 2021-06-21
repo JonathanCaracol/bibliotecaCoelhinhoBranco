@@ -475,6 +475,17 @@ include_once("common.php");
                 $(this).val('');
                 //filtraDados(8);
             })
+
+            $("#livroRequisitar").on('input', function () {
+                var val = this.value;
+                if($('#livros option').filter(function(){
+                    return this.value.toUpperCase() === val.toUpperCase();
+                }).length) {
+                    //send ajax request
+                   // alert(this.value);
+                    $("#livroRequisitar").val("vai fazer o ajax para ir buscar o nome do livro s.f.f.")
+                }
+            });
         });
     </script>
 

@@ -39,7 +39,7 @@ $dados = mysqli_fetch_array($res);
                         <div class="col-8">
                             <div class="form-group">
                                 <!-- preencher com os utilizadores *************************  -->
-                                <select id="aa">
+                                <select id="alunoAux">
                                     <option value="1">Um</option>
                                     <option value="2">Dois</option>
                                     <option value="3">Tres</option>
@@ -85,7 +85,7 @@ $dados = mysqli_fetch_array($res);
 </div>
 <script>
 
-    $('#aa').on('change', function (e) {
+    $('#alunoAux').on('change', function (e) {
         id=this.value;
         mostraRequisitados(id);
 
