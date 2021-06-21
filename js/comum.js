@@ -5,3 +5,22 @@ function mostraImg(id) {
 function escondeImg(id) {
     $('#thumb').css("visibility", "hidden");
 }
+
+function mostraRequisitados(id){
+    alert(id);
+
+
+
+    /*
+     $.ajax({
+        url: "AJAXFillLivros.php",
+        type: "post",
+        data: {
+            txt: txt
+        },
+        success: function (result) {
+            $('#resultadosPesquisa').html(result);
+        }
+    });
+     */
+}
