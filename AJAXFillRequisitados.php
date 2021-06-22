@@ -4,11 +4,14 @@ include_once("common.php");
 include_once("admin/includes/body.inc.php");
 
 
-$id = $_POST['id'];
+$id = intval($_POST['id']);
 
- $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId where id='$id'" or die (" Erro na consulta " . mysqli_error());
 
-$result=mysqli_query($con,$sql);
+$con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
+
+ $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId inner join 06hugo_livros on livroId = requisicaoLivroId where utilizadorId=".$id;
+
+$result1=mysqli_query($con,$sql);
 
 
 
@@ -21,21 +24,20 @@ $result=mysqli_query($con,$sql);
 
                 <thead>
                 <tr style="color: #ffc107">
-                    <th width="20%" scope="col">#</th>
                     <th  width="40%" scope="col">Nome</th>
                     <th  width="40%" scope="col">Requisição</th>
-                    <th width="20%"  colspan="2" scope="col">
-                        <a href="novoAutor.php" class="btn btn-success"><span class="fas fa-plus"></span> Adicionar </a>
+
+
                     </th>
                 </tr>
                 </thead>
                 <tbody>
                 <?php
 
-                while($pessoa = mysqli_fetch_array($result)){
+                while($pessoa = mysqli_fetch_array($result1)){
                     echo"<tr>";
-                    echo"<th scope=\"row\">".$pessoa['utilizadorId']."</th>";
-                    echo"<td>".$pessoa['requisicaoLivroId']."</a></td>";
+                    echo"<th scope=\"row\">".$pessoa['utilizadorNome']."</th>";
+                    echo"<td>".$pessoa['livroTitulo']."</a></td>";
 
 
 
