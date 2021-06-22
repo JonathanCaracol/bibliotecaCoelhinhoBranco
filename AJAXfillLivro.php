@@ -39,7 +39,7 @@ $dados = mysqli_fetch_array($res);
                         <div class="col-8">
                             <div class="form-group">
                                 <!-- preencher com os utilizadores *************************  -->
-                                <select id="aa">
+                                <select id="user">
                                     <option value="-1">Escolha o Utilizador</option>
                                     <?php
                                     $sql = "select * from 06hugo_utilizadores order by utilizadorNome";
@@ -55,13 +55,6 @@ $dados = mysqli_fetch_array($res);
 
                                 </select>
 
-
-
-                                <select id="aa">
-                                    <option value="1">Um++++++++++++9++++++++++</option>
-                                    <option value="2">Dois++dddddffff</option>
-                                    <option value="3">Tres+ff+</option>
-                                </select>
                                 <!-- ********************************************************* -->
                                 <label for="nome">Utilizador:</label>
                                 <input type="text" class="form-control" id="searchNome" list="users">
@@ -80,11 +73,15 @@ $dados = mysqli_fetch_array($res);
                             </div>
                             <div class="row w-100">
                                 <div id="resultadosPesquisa" class="w-100">
+
                                 </div>
                             </div>
                         </div>
                         <?php
                     }
+
+
+
                     ?>
                 </div>
             </div>
@@ -103,7 +100,7 @@ $dados = mysqli_fetch_array($res);
 </div>
 <script>
 
-    $('#aa').on('change', function (e) {
+    $('#user').on('change', function (id) {
         id=this.value;
         mostraRequisitados(id);
 

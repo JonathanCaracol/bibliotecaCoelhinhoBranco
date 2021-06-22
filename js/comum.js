@@ -14,7 +14,7 @@ function mostraRequisitados(id){
         url: "AJAXFillRequisitados.php",
         type: "post",
         data: {
-            txt: (id)
+            id:id
         },
         success: function (result) {
             $('#resultadosPesquisa').html(result);
