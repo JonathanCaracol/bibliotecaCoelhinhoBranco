@@ -39,7 +39,7 @@ $dados = mysqli_fetch_array($res);
                         <div class="col-8">
                             <div class="form-group">
                                 <!-- preencher com os utilizadores *************************  -->
-                                <select id="aa">
+                                <!--<select id="aa">
                                     <option value="-1">Escolha o Utilizador</option>
                                     <?php
                                     $sql = "select * from 06hugo_utilizadores order by utilizadorNome";
@@ -53,19 +53,12 @@ $dados = mysqli_fetch_array($res);
                                     }
                                     ?>
 
-                                </select>
+                                </select>-->
 
 
-
-                                <select id="aa">
-                                    <option value="1">Um++++++++++++9++++++++++</option>
-                                    <option value="2">Dois++dddddffff</option>
-                                    <option value="3">Tres+ff+</option>
-                                </select>
                                 <!-- ********************************************************* -->
                                 <label for="nome">Utilizador:</label>
-                                <input type="text" class="form-control" id="searchNome" list="users">
-
+                                <input onChange="getId()" type="text" class="form-control" id="searchNome" list="users">
                                 <datalist id="users">
                                     <?php
                                     $query = "SELECT * FROM 06hugo_utilizadores";
@@ -101,12 +94,18 @@ $dados = mysqli_fetch_array($res);
         </div>
     </div>
 </div>
-<script>
+<!--<script>
 
     $('#aa').on('change', function (e) {
         id=this.value;
         mostraRequisitados(id);
 
     });
-
+</script>-->
+<script>
+    function getId() {
+        id = document.getElementById("users").value;
+        mostraRequisitados(id);
+    });
 </script>
+

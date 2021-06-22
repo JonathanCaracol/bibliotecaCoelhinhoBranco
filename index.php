@@ -839,6 +839,8 @@ include_once("common.php");
         </div>
     </div>
 
+
+
     <div class="modal fade" id="devolverModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-side modal-top-right " role="document">
             <div class="modal-content">

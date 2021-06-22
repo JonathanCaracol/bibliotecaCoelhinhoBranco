@@ -20,30 +20,20 @@ function mostraRequisitados(id){
             $('#resultadosPesquisa').html(result);
         }
     });
+}
+function devolveNome(id){
+    alert(id);
 
 
-
-
-
-
-
-    /*
-     $.ajax({
-        url: "AJAXFillLivros.php",
+    $.ajax({
+        url: "AJAXGetName.php",
         type: "post",
         data: {
-            txt: txt
-++++++++++++++++++++++++++++++++++++++++ffffff
-
-
+            id: id
         },
         success: function (result) {
-            $('#resultadosPesquisa').html(result);
+            $('#searchNome').html(result);
         }
     });
-     */
-
-
-
-
 }
+
