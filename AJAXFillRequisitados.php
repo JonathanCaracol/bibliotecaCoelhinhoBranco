@@ -11,7 +11,7 @@ $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
  $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId inner join 06hugo_livros on livroId = requisicaoLivroId where utilizadorId=".$id;
 
-$result1=mysqli_query($con,$sql455);
+$result1=mysqli_query($con,$sql);
 
 
 
@@ -26,7 +26,7 @@ $result1=mysqli_query($con,$sql455);
                 <tr style="color: #ffc107">
                     <th  width="40%" scope="col">Nome</th>
                     <th  width="40%" scope="col">Requisição</th>
-                    <th width="20%"  colspan="2" scope="col">
+
 
                     </th>
                 </tr>
