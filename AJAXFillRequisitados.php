@@ -11,7 +11,7 @@ $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
  $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId inner join 06hugo_livros on livroId = requisicaoLivroId where utilizadorId=".$id;
 
-$result1=mysqli_query($con,$sql45);
+$result1=mysqli_query($con,$sql455);
 
 
 
