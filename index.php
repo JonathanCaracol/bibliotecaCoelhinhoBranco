@@ -475,7 +475,6 @@ include_once("common.php");
                 $(this).val('');
                 //filtraDados(8);
             })
-
             $("#livroRequisitar").on('input', function () {
                 var val = this.value;
                 if($('#livros option').filter(function(){
