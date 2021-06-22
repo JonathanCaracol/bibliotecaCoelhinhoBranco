@@ -9,9 +9,9 @@ $id = intval($_POST['id']);
 
 $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
- $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId where id='$id'" or die (" Erro na consulta " . mysqli_error());
+ $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId where utilizadorId=".$id;
 
-$result=mysqli_query($con,$sql);
+$result1=mysqli_query($con,$sql);
 
 
 
@@ -35,7 +35,7 @@ $result=mysqli_query($con,$sql);
                 <tbody>
                 <?php
 
-                while($pessoa = mysqli_fetch_array($result)){
+                while($pessoa = mysqli_fetch_array($result1)){
                     echo"<tr>";
                     echo"<th scope=\"row\">".$pessoa['utilizadorId']."</th>";
                     echo"<td>".$pessoa['requisicaoLivroId']."</a></td>";

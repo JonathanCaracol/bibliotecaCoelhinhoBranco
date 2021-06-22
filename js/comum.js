@@ -7,7 +7,6 @@ function escondeImg(id) {
 }
 
 function mostraRequisitados(id){
-    alert(id);
 
 
     $.ajax({

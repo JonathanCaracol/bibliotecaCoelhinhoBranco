@@ -56,7 +56,7 @@ $dados = mysqli_fetch_array($res);
                                 </select>
 
                                 <!-- ********************************************************* -->
-                                <label for="nome">Utilizador:</label>
+                           <!--     <label for="nome">Utilizador:</label>
                                 <input type="text" class="form-control" id="searchNome" list="users">
 
                                 <datalist id="users">
@@ -69,7 +69,7 @@ $dados = mysqli_fetch_array($res);
                                         <?php
                                     }
                                     ?>
-                                </datalist>
+                                </datalist> -->
                             </div>
                             <div class="row w-100">
                                 <div id="resultadosPesquisa" class="w-100">
