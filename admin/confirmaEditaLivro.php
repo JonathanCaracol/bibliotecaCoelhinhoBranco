@@ -12,7 +12,7 @@ $texto="";
 if(($_FILES['imagem']['name']!=''))
 {
     $imagem=$_FILES['imagem']['tmp_name'];
-    $file='Imagens/'.$imagem.'.jpg';
+    $file='Imagens/'.time().chr(rand(65,90)).'.jpg';
     uploadFile($imagem,'../'.GLOBALPATH.$file);
     $texto=", livroCapaURL='$file'";
 }

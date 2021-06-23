@@ -77,7 +77,7 @@ $dadosUt=mysqli_fetch_array($res);
                     </div>
 
                     <div class="form-group">
-                        <label for="titulo">G�neros</label>
+                        <label for="titulo">Géneros</label>
                         <select class="form-control" name="genero">
                             <option value="-1">Escolha um genero</option>
                             <?php
@@ -110,7 +110,7 @@ $dadosUt=mysqli_fetch_array($res);
                         <br>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" id="tipo" name="estado" value="disponivel"<?php echo ($dadosUt['livroEstado']=='disponivel'?' checked':'') ?>>
-                            <label class="form-check-label">Dispon�vel</label>
+                            <label class="form-check-label">Disponível</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" id="tipo" name="estado" value="requisitado" <?php echo ($dadosUt['livroEstado']=='requisitado'?' checked':'') ?>>
