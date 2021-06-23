@@ -25,7 +25,7 @@ $result1=mysqli_query($con,$sql );
 
                 <thead>
                 <tr style="color: #000000">
-                    <th  width="40%" scope="col">Data da requisição</th>
+                    <th  width="40%" scope="col">Data da requisiçãoo</th>
                     <th  width="40%" scope="col">Livro</th>
 
 
