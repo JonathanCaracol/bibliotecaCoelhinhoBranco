@@ -97,7 +97,7 @@ drawTop(MENUOFF);
 
 
                     <button type="submit" class="btn btn-primary">Adiciona</button>
-                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger" >cancelar</button>
+                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger" >Cancelar</button>
                 </form>
             </div>
 

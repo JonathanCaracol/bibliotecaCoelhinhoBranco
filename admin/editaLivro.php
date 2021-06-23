@@ -134,7 +134,7 @@ $dadosUt=mysqli_fetch_array($res);
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Edita</button>
-                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger">cancelar</button>
+                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger">Cancelar</button>
 
                     <input type="hidden" name="id" value="<?php echo $dadosUt['livroId']?>">
                 </form>
