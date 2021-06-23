@@ -23,6 +23,18 @@ WHERE livroId = ".$id;
 $res=mysqli_query($con,$sql);
 $dadosUt=mysqli_fetch_array($res);
 ?>
+<script>
+    function preview_image(event)
+    {
+        var reader = new FileReader();
+        reader.onload = function()
+        {
+            var output = document.getElementById('output_image');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
 <section>
 
    
@@ -40,13 +52,13 @@ $dadosUt=mysqli_fetch_array($res);
 
                         <label for="nome">Capa</label>
 
-                        <img src="../<?php echo GLOBALPATH.$dadosUt['livroCapaURL']?>" width="120">
+                        <img id="output_image" src="../<?php echo GLOBALPATH.$dadosUt['livroCapaURL']?>" width="120">
 
                     </div>
 
                     <div class="custom-file">
 
-                        <input type="file" class="custom-file-input"  name="imagem">
+                        <input type="file" class="custom-file-input" onchange="preview_image(event)"  name="imagem">
 
                         <label class="custom-file-label" for="validatedCustomFile">Escolha...</label>
 
