@@ -18,12 +18,12 @@ $result1=mysqli_query($con,$sql);
 ?>
 
 
-    <section><h1 style="font-family: 'Agency FB'" align="center">Requisições</h1>
+    <section><h1 style="font-family: 'Agency FB'" align="center">lista de livros requisitados</h1>
         <div class="table-responsive">
-            <table class="table table-sm table-dark">
+            <table class="table table-sm table-white">
 
                 <thead>
-                <tr style="color: #ffc107">
+                <tr style="color: #000000">
                     <th  width="40%" scope="col">Nome</th>
                     <th  width="40%" scope="col">Requisição</th>
 
