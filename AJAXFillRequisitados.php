@@ -1,6 +1,4 @@
 <?php
-include_once("js/comum.php");
-
 include_once("admin/includes/body.inc.php");
 
 

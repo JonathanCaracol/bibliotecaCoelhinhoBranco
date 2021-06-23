@@ -8,7 +8,7 @@ function escondeImg(id) {
 
 function mostraRequisitados(id){
 
-
+alert(id);
     $.ajax({
         url: "AJAXFillRequisitados.php",
         type: "post",
@@ -21,7 +21,6 @@ function mostraRequisitados(id){
     });
 }
 function devolveNome(id){
-    alert(id);
 
 
     $.ajax({
@@ -31,7 +30,7 @@ function devolveNome(id){
             id: id
         },
         success: function (result) {
-            $('#searchNome').html(result);
+            return(result);
         }
     });
 }

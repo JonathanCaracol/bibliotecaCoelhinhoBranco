@@ -289,7 +289,7 @@ include_once("common.php");
 
 
 
-    <script>
+    <script><!-- *******************************************************************************************************   Javascript **************************** -->
         // Automatic Slideshow - change image every 3 seconds
         var myIndex = 0;
 
@@ -414,7 +414,8 @@ include_once("common.php");
         }
 
         function abreRequisitar(){
-            var livroId = $('#livroRequisitar').val();
+
+            var livroId = $('#idLivro').val();
             fillBook(livroId);
         }
 
@@ -480,11 +481,22 @@ include_once("common.php");
                 if($('#livros option').filter(function(){
                     return this.value.toUpperCase() === val.toUpperCase();
                 }).length) {
-                    //send ajax request
-                   // alert(this.value);
-                    $("#livroRequisitar").val("vai fazer o ajax para ir buscar o nome do livro s.f.f.")
+                   // var id=this.value;
+                    $.ajax({
+                        url: "AJAXGetNameBook.php",
+                        type: "post",
+                        data: {
+                            id: val
+                        },
+                        success: function (result) {
+                            $("#livroRequisitar").val(result);
+                            $("#idLivro").val(val);
+
+                        }
+                    });
                 }
             });
+
         });
     </script>
 
@@ -539,7 +551,7 @@ include_once("common.php");
 
         }
     </script>
-
+<!-- *******************************************************************************************************************************************  FIM -->
 
 </head>
 
@@ -820,13 +832,14 @@ include_once("common.php");
                                     <br><label for="nome" class="col-2 col-form-label">Livro:</label>
                                     <div class="col-10">
                                         <input type="text" class="form-control" id="livroRequisitar" list="livros">
+                                        <input type="hidden" id="idLivro">
                                         <datalist id="livros">
                                             <?php
                                             $query = "SELECT * FROM 06hugo_livros";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)) {
                                                 ?>
-                                                <option value="<?php echo $livros["livroId"];?>"><?php echo $livros['livroTitulo'] ?></option>
+                                                <option value="<?php echo $livros["livroId"];?>"><?php echo $livros["livroId"].' - '.$livros['livroTitulo'] ?></option>
                                             <?php
                                             }
                                             ?>

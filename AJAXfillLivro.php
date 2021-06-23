@@ -58,14 +58,14 @@ $dados = mysqli_fetch_array($res);
 
                                 <!-- ********************************************************* -->
                                 <label for="nome">Utilizador:</label>
-                                <input onChange="getId()" type="text" class="form-control" id="searchNome" list="users">
+                                <input type="text" class="form-control" id="searchNome" list="users">
                                 <datalist id="users">
                                     <?php
                                     $query = "SELECT * FROM 06hugo_utilizadores";
                                     $resultado = mysqli_query($con, $query);
                                     while ($users = mysqli_fetch_array($resultado)) {
                                         ?>
-                                        <option value="<?php echo $users["utilizadorId"]; ?>"><?php echo $users['utilizadorNome'] ?></option>
+                                        <option value="<?php echo $users["utilizadorId"]; ?>"><?php echo $users["utilizadorId"].' - '.$users['utilizadorNome'] ?></option>
                                         <?php
                                     }
                                     ?>
@@ -103,9 +103,28 @@ $dados = mysqli_fetch_array($res);
     });
 </script>-->
 <script>
-    function getId() {
-        id = document.getElementById("users").value;
-        mostraRequisitados(id);
+    $("#searchNome").on('input', function () {
+        var val = this.value;
+        if($('#users option').filter(function(){
+            return this.value.toUpperCase() === val.toUpperCase();
+        }).length) {
+            mostraRequisitados(val);
+            /*  var id=this.value;
+              $.ajax({
+                  url: "AJAXGetNameBook.php",
+                  type: "post",
+                  data: {
+                      id: id
+                  },
+                  success: function (result) {
+                      $("#livroRequisitar").val(result);
+                      $("#idLivro").val(id);
+
+                  }
+              });
+
+             */
+        }
     });
 </script>
 
