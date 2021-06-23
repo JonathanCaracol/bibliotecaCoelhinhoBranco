@@ -34,7 +34,7 @@ drawTop(MENUOFF);
                         <label for="titulo">Autores</label>
 
                         <select class="form-control" name="autores" list="autoresNome">
-                            <option value="-1">Escolha um autore...</option>
+                            <option value="-1">Escolha um autor...</option>
                             <datalist id="autoresNome">
                                 <?php
                                 $sql="select * from 06hugo_autores";
