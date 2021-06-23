@@ -362,12 +362,12 @@ include_once("common.php");
                     type: "post",
                     data: {
                         livroId: id,
-                        userId: $('#searchNome').val()
+                        userId: $('#idUser').val()
                     },
                     success: function(result) {
                         if (parseInt(result) > 0) {
-
-                        } else {
+                            alert("Livro requisitado com sucesso!");
+                            } else {
                             alert("Ocorreu um erro ao requisitar o livro!");
                         }
                     }
@@ -404,11 +404,7 @@ include_once("common.php");
                     livroId: $('#idLivroDevolver').val()
                 },
                 success: function(result) {
-                    if (parseInt(result) > 0) {
-                        alert("Livro devolvido com sucesso!");
-                    } else {
-                        alert("Ocorreu um erro ao devolver o livro!");
-                    }
+                    alert("Livro devolvido com sucesso!");
                 }
             });
         }
@@ -476,6 +472,7 @@ include_once("common.php");
                 $(this).val('');
                 //filtraDados(8);
             })
+
             $("#livroRequisitar").on('input', function () {
                 var val = this.value;
                 if($('#livros option').filter(function(){
@@ -511,7 +508,7 @@ include_once("common.php");
 
                     }
                 });
-            })
+            });
 
         });
     </script>
@@ -906,15 +903,15 @@ include_once("common.php");
                                 <div class="form-group row mt-2">
                                     <br><label for="nome" class="col-2 col-form-label">Livro:</label>
                                     <div class="col-10">
-                                        <input type="text" class="form-control" id="devolverLivro" list="livros">
+                                        <input type="text" class="form-control" id="devolverLivro" list="livrosDevolver">
                                         <input type="hidden" id="idLivroDevolver">
-                                        <datalist id="livros">
+                                        <datalist id="livrosDevolver">
                                             <?php
                                             $query = "SELECT * FROM 06hugo_livros inner join 06hugo_requisicoes on livroId=requisicaoLivroId where requisicaoDataTraz is null and livroEstado='requisitado'";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)){
                                                 ?>
-                                                    <option value="<?php echo $livros["livroTitulo"]; ?>"><?php echo $livros["livroId"].' - '.$livros['livroTitulo'] ?></option>
+                                                    <option value="<?php echo $livros["livroId"]; ?>"><?php echo $livros["livroId"].' - '.$livros['livroTitulo'] ?></option>
                                             <?php
                                             }
                                             ?>

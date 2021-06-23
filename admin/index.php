@@ -1,6 +1,6 @@
 <?php
 include_once ("includes/body.inc.php");
-include_once ("../common.php");
+include_once ("common.php");
 drawTop(1,HOME);
 ?>
 
@@ -40,7 +40,7 @@ drawTop(1,HOME);
                 echo"<td><img src=\"../".GLOBALPATH.$dados['livroCapaURL']."\" width=\"60\"> </td>";
                 echo"<td>".$dados['livroTitulo']."</td>";
                 echo"<td>".$dados['utilizadorNome']."</td>";
-                echo"<td>".$dados['requisicaoDataLeva'].'<br>('.$dados['dias'].")</td>";
+                echo"<td>".$dados['requisicaoDataLeva'].")</td>";
                 echo"<td>".$dados['livroEstado']."</td>";
                 echo"<td><a style='color: #ffc107;' href=\"AJAXdevolve.php?id=".$dados['requisicaoId']."\" class=\"btn \"><span class=\"fas fa-edit\" ></span> <span>Devolver </span></a>
         </td>";

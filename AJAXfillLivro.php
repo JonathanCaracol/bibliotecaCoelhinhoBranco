@@ -8,7 +8,7 @@ $res = mysqli_query($con, $sql);
 $dados = mysqli_fetch_array($res);
 ?>
 
-<div class="modal-dialog modal-full-height modal-right" style="overflow-y:" role="document">
+<div class="modal-dialog modal-full-height modal-right" id="modalRequisitarESTE" style="overflow-y:" role="document">
     <div class="modal-content">
         <div class="modal-header">
             <h4 class="modal-title w-100">ESTE<?php echo $dados['livroTitulo'] ?></h4>
