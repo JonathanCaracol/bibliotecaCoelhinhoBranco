@@ -23,6 +23,18 @@ WHERE livroId = ".$id;
 $res=mysqli_query($con,$sql);
 $dadosUt=mysqli_fetch_array($res);
 ?>
+<script>
+    function preview_image(event)
+    {
+        var reader = new FileReader();
+        reader.onload = function()
+        {
+            var output = document.getElementById('output_image');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
 <section>
 
    
@@ -40,13 +52,13 @@ $dadosUt=mysqli_fetch_array($res);
 
                         <label for="nome">Capa</label>
 
-                        <img src="../<?php echo GLOBALPATH.$dadosUt['livroCapaURL']?>" width="120">
+                        <img id="output_image" src="../<?php echo GLOBALPATH.$dadosUt['livroCapaURL']?>" width="120">
 
                     </div>
 
                     <div class="custom-file">
 
-                        <input type="file" class="custom-file-input"  name="imagem">
+                        <input type="file" class="custom-file-input" onchange="preview_image(event)"  name="imagem">
 
                         <label class="custom-file-label" for="validatedCustomFile">Escolha...</label>
 
@@ -77,7 +89,7 @@ $dadosUt=mysqli_fetch_array($res);
                     </div>
 
                     <div class="form-group">
-                        <label for="titulo">G�neros</label>
+                        <label for="titulo">Géneros</label>
                         <select class="form-control" name="genero">
                             <option value="-1">Escolha um genero</option>
                             <?php
@@ -110,7 +122,7 @@ $dadosUt=mysqli_fetch_array($res);
                         <br>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" id="tipo" name="estado" value="disponivel"<?php echo ($dadosUt['livroEstado']=='disponivel'?' checked':'') ?>>
-                            <label class="form-check-label">Dispon�vel</label>
+                            <label class="form-check-label">Disponível</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" id="tipo" name="estado" value="requisitado" <?php echo ($dadosUt['livroEstado']=='requisitado'?' checked':'') ?>>

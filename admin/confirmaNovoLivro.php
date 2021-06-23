@@ -10,14 +10,17 @@ $genero=intval($_POST['generos']);
 
 $file="";
 $imagem=$_FILES['imagem']['tmp_name'];
-$file=time().chr(rand(65,90)).'.jpg';
-uploadFile($imagem,'../img/'.$file);
+$file='Imagens/'.time().chr(rand(65,90)).'.jpg';
+uploadFile($imagem,'../'.$file);
 
 $sql = "insert into 06hugo_livros values(0,'$titulo','$sinopse','$estado','$file','0')";
 mysqli_query($con, $sql);
-$id1="SELECT MAX(livroId) FROM 06hugo_livros";
-$id2= mysqli_query($con,$id1);
-$id = (int)$id2;
+
+$id = mysqli_insert_id($con);// ultimo id gerado
+$sql = "update 06hugo_livros set livroNumero=livroId where livroId=$id";
+mysqli_query($con, $sql);
+
+
 
 $sql = "insert into 06hugo_livroautores values('$autor','$id')";
 mysqli_query($con, $sql);
@@ -27,3 +30,4 @@ mysqli_query($con, $sql);
 
 header("location:livros.php");
 ?>
+

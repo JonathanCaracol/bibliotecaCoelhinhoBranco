@@ -77,7 +77,7 @@ drawTop(MENUOFF);
                         <label for="nome">Estado</label>
                         <br>
                         <div class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" id="tipo" name="estado" value="disponivel">
+                            <input type="radio" class="form-check-input" id="tipo" name="estado" value="disponivel" checked>
                             <label class="form-check-label">Disponível</label>
                         </div>
                         <div class="form-check form-check-inline">
