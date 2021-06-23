@@ -59,4 +59,6 @@ while($dados=mysqli_fetch_array($res)) {
 
     </div>
 
-    <?php } ?>
+    <?php
+}
+?>

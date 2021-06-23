@@ -8,7 +8,7 @@ function escondeImg(id) {
 
 function mostraRequisitados(id){
 
-alert(id);
+
     $.ajax({
         url: "AJAXFillRequisitados.php",
         type: "post",
