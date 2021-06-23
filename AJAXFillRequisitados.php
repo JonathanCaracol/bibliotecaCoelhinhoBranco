@@ -18,15 +18,15 @@ $result1=mysqli_query($con,$sql );
 
 ?>
 
-
-    <section><h1 class="modal-title w-100" align="center">lista de livros requisitados</h1>
+<div style="margin-top: 10px">
+    <h4 class="modal-title w-100" align="center">Lista de livros requisitados</h4>
         <div class="table-responsive">
             <table class="table table-sm table-white">
 
                 <thead>
                 <tr style="color: #000000">
-                    <th  width="40%" scope="col">Data da requisiçãoo</th>
-                    <th  width="40%" scope="col">Livro</th>
+                    <th style="text-align: center" width="40%"  scope="col">Data da requisição</th>
+                    <th style="vertical-align: middle; text-align: center " width="40%"  scope="col">Livro</th>
 
 
 
@@ -39,8 +39,8 @@ $result1=mysqli_query($con,$sql );
                 while($pessoa = mysqli_fetch_array($result1)){
                     echo"<tr>";
 
-                    echo"<td>".$pessoa['requisicaoDataLeva']."</a></td>";
-                    echo"<td>".$pessoa['livroTitulo']."</a></td>";
+                    echo"<td class='align-middle -vertical, text-center'>".$pessoa['requisicaoDataLeva']."</a></td>";
+                    echo"<td class='align-middle -vertical, text-center'>".$pessoa['livroTitulo']."</a></td>";
 
 
 
@@ -52,7 +52,7 @@ $result1=mysqli_query($con,$sql );
                 </tbody>
             </table>
         </div>
-    </section>
+</div>
 
 
 
