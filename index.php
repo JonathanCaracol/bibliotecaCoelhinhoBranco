@@ -401,7 +401,7 @@ include_once("common.php");
                 url: "AJAXdevolveLivro.php",
                 type: "post",
                 data: {
-                    livroId: $('#devolverLivro').val()
+                    livroId: $('#idLivroDevolver').val()
                 },
                 success: function(result) {
                     if (parseInt(result) > 0) {
@@ -496,6 +496,22 @@ include_once("common.php");
                     });
                 }
             });
+
+            $("#devolverLivro").on('input', function () {
+                var val = this.value;
+                $.ajax({
+                    url: "AJAXGetNameBook.php",
+                    type: "post",
+                    data: {
+                        id: val
+                    },
+                    success: function (result) {
+                        $("#devolverLivro").val(result);
+                        $("#idLivroDevolver").val(val);
+
+                    }
+                });
+            })
 
         });
     </script>
@@ -891,13 +907,14 @@ include_once("common.php");
                                     <br><label for="nome" class="col-2 col-form-label">Livro:</label>
                                     <div class="col-10">
                                         <input type="text" class="form-control" id="devolverLivro" list="livros">
+                                        <input type="hidden" id="idLivroDevolver">
                                         <datalist id="livros">
                                             <?php
                                             $query = "SELECT * FROM 06hugo_livros inner join 06hugo_requisicoes on livroId=requisicaoLivroId where requisicaoDataTraz is null and livroEstado='requisitado'";
                                             $resultado = mysqli_query($con, $query);
                                             while ($livros = mysqli_fetch_array($resultado)){
                                                 ?>
-                                                    <option value="<?php echo $livros["livroTitulo"]; ?>"></option>
+                                                    <option value="<?php echo $livros["livroTitulo"]; ?>"><?php echo $livros["livroId"].' - '.$livros['livroTitulo'] ?></option>
                                             <?php
                                             }
                                             ?>

@@ -19,7 +19,7 @@ drawTop(1,HOME);
             <tr style="color: #ffc107">
                 <th  width="5%" scope="col">#</th>
                 <th width="5%" scope="col">Capa</th>
-                <th  width="20%" scope="col">titulo</th>
+                <th  width="20%" scope="col">Titulo</th>
                 <th  width="10%" scope="col">Nome</th>
                 <th  width="10%" scope="col">Dia de Requisição</th>
                 <th  width="10%" scope="col">Estado</th>
@@ -30,8 +30,9 @@ drawTop(1,HOME);
             </thead>
             <tbody>
             <?php
-             $sql="select *, datediff(curdate(),requisicaoDataLeva) as dias from 06hugo_livros 
-		 INNER JOIN 06hugo_requisicoes on livroId=requisicaoLivroId    INNER JOIN 06hugo_utilizadores on requisicaoUtilizadorId= utilizadorId where requisicaoDataTraz is null and livroEstado='requisitado'";
+             $sql="select * from 06hugo_livros 
+		            INNER JOIN 06hugo_requisicoes on livroId=requisicaoLivroId    
+                    INNER JOIN 06hugo_utilizadores on requisicaoUtilizadorId= utilizadorId where requisicaoDataTraz is null and livroEstado='requisitado'";
             $res=mysqli_query($con,$sql);
             while($dados=mysqli_fetch_array($res)){
                 echo"<tr>";

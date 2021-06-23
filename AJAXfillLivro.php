@@ -59,6 +59,7 @@ $dados = mysqli_fetch_array($res);
                                 <!-- ********************************************************* -->
                                 <label for="nome">Utilizador:</label>
                                 <input type="text" class="form-control" id="searchNome" list="users">
+                                <input type="hidden" id="idUser">
                                 <datalist id="users">
                                     <?php
                                     $query = "SELECT * FROM 06hugo_utilizadores";
@@ -109,6 +110,18 @@ $dados = mysqli_fetch_array($res);
             return this.value.toUpperCase() === val.toUpperCase();
         }).length) {
             mostraRequisitados(val);
+            $.ajax({
+                url: "AJAXGetName.php",
+                type: "post",
+                data: {
+                    id: val
+                },
+                success: function (result) {
+                    $("#searchNome").val(result);
+                    $("#idUser").val(val);
+                }
+            });
+
             /*  var id=this.value;
               $.ajax({
                   url: "AJAXGetNameBook.php",
