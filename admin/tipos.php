@@ -12,7 +12,7 @@ drawTop();
             <tr style="color: #ffc107">
                 <th width="10%" scope="col">#</th>
                 <th  width="40%" scope="col">Nome</th>
-                <th  width="20%" scope="col">Permissıes</th>
+                <th  width="20%" scope="col">Permiss√µes</th>
                 <th width="30%"  colspan="2" scope="col">
                     <a href="novoTipo.php" class="btn btn-success"><span class="fas fa-plus"></span> Adicionar </a>
                 </th>
