@@ -7,7 +7,7 @@ $id = intval($_POST['id']);
 
 $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
- $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId inner join 06hugo_livros on livroId = requisicaoLivroId where utilizadorId=".$id;
+ $sql = "SELECT * FROM 06hugo_utilizadores inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId inner join 06hugo_livros on livroId = requisicaoLivroId where requisicaoDataTraz is NULL and utilizadorId=".$id;
 
 $result1=mysqli_query($con,$sql);
 
@@ -23,7 +23,8 @@ $result1=mysqli_query($con,$sql);
                 <thead>
                 <tr style="color: #000000">
                     <th  width="40%" scope="col">Nome</th>
-                    <th  width="40%" scope="col">Requisição</th>
+                    <th  width="40%" scope="col">Livro</th>
+                    <th  width="40%" scope="col">Data da requisição</th>
 
 
                     </th>
@@ -34,8 +35,10 @@ $result1=mysqli_query($con,$sql);
 
                 while($pessoa = mysqli_fetch_array($result1)){
                     echo"<tr>";
+
                     echo"<th scope=\"row\">".$pessoa['utilizadorNome']."</th>";
                     echo"<td>".$pessoa['livroTitulo']."</a></td>";
+                    echo"<td>".$pessoa['requisicaoDataLeva']."</a></td>";
 
 
 

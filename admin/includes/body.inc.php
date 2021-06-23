@@ -26,6 +26,8 @@ function drawTop($menu = MENUON, $opt=HOME)
 
         <script src="js/bootstrap.js"></script>
         <script  src="js/common.js"></script>
+        <script  src="js/comum.js"></script>
+
         <script>
             $('document').ready(function () {
                 ;
