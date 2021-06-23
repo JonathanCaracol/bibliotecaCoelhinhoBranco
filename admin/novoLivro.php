@@ -34,14 +34,14 @@ drawTop(MENUOFF);
                         <label for="titulo">Autores</label>
 
                         <select class="form-control" name="autores" list="autoresNome">
-                            <option value="-1">Escolha um genero...</option>
+                            <option value="-1">Escolha um autore...</option>
                             <datalist id="autoresNome">
                                 <?php
                                 $sql="select * from 06hugo_autores";
                                 $res=mysqli_query($con,$sql);
 
                                 while($dados=mysqli_fetch_array($res)){
-                                    echo "<option value=\"".$dados['autorNome']."\">".$dados['autorNome']."</option>";
+                                    echo "<option value=\"".$dados['autorId']."\">".$dados['autorNome']."</option>";
                                 }
                                 ?>
                             </datalist>
