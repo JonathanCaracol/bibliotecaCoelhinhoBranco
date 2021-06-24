@@ -1,7 +1,7 @@
 <?php
 $id=intval($_GET['id']);
 include_once ("includes/body.inc.php");
-include_once ("../common.php");
+include_once ("common.php");
 drawTop(MENUOFF);
 $sql="SELECT
 06hugo_livros.livroId,

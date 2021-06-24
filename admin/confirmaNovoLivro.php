@@ -21,8 +21,7 @@ $sql = "update 06hugo_livros set livroNumero=livroId where livroId=$id";
 mysqli_query($con, $sql);
 
 
-
-$sql = "insert into 06hugo_livroautores values('$autor','$id')";
+$sql = "insert into 06hugo_livroautores values('$id','$autor')";
 mysqli_query($con, $sql);
 
 $sql = "insert into 06hugo_livrogeneros values('$id','$genero')";

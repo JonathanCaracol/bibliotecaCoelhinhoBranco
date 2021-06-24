@@ -39,7 +39,6 @@ drawTop(MENUOFF);
                                 <?php
                                 $sql="select * from 06hugo_autores";
                                 $res=mysqli_query($con,$sql);
-
                                 while($dados=mysqli_fetch_array($res)){
                                     echo "<option value=\"".$dados['autorId']."\">".$dados['autorNome']."</option>";
                                 }
@@ -57,13 +56,12 @@ drawTop(MENUOFF);
                             <option value="-1">Escolha um genero...</option>
                         <datalist id="generoNome">
                             <?php
-                            $sql="select * from 06hugo_generos";
-                            $res=mysqli_query($con,$sql);
-                            while($dados=mysqli_fetch_array($res)){
-                                echo "<option value=\"".$dados['generoNome']."\">".$dados['generoNome']."</option>";
+                            $sql1="select * from 06hugo_generos";
+                            $res1=mysqli_query($con,$sql1);
+                            while($dados1=mysqli_fetch_array($res1)){
+                                echo "<option value=\"".$dados1['generoId']."\">".$dados1['generoNome']."</option>";
                             }
                             ?>
-
                         </datalist>
                         </select>
                     </div>
