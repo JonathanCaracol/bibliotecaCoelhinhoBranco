@@ -36,7 +36,7 @@ $dados = mysqli_fetch_array($res);
                         <?php
                     } else {
                         ?>
-                        <div class="col-8">
+                        <div class="col-12 ">
                             <div class="form-group">
                                 <!-- preencher com os utilizadores *************************  -->
                                 <!--<select id="aa">
@@ -72,8 +72,8 @@ $dados = mysqli_fetch_array($res);
                                     ?>
                                 </datalist>
                             </div>
-                            <div class="row w-100">
-                                <div id="resultadosPesquisa" class="w-100">
+                            <div class="row ">
+                                <div class="col-12" id="resultadosPesquisa" >
                                 </div>
                             </div>
                         </div>

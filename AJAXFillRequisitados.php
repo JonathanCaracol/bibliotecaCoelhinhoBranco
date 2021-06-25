@@ -10,50 +10,40 @@ $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
  $sql = "SELECT * FROM 06hugo_utilizadores
 inner join 06hugo_requisicoes ON requisicaoUtilizadorId = utilizadorId
 inner join 06hugo_livros on livroId = requisicaoLivroId where
-  requisicaoDataTraz IS NULL AND utilizadorId=".$id;
+  requisicaoDataTraz IS NULL AND utilizadorId=".$id." order by requisicaoDataLeva ASC";
 
 $result1=mysqli_query($con,$sql );
-
+if(mysqli_affected_rows($con)){
 
 
 ?>
 
 <div style="margin-top: 10px">
-    <h4 class="modal-title w-100" align="center">Lista de livros requisitados</h4>
-        <div class="table-responsive">
-            <table class="table table-sm table-white">
-
-                <thead>
-                <tr style="color: #000000">
-                    <th style="text-align: center" width="40%"  scope="col">Data da requisição</th>
-                    <th style="vertical-align: middle; text-align: center " width="40%"  scope="col">Livro</th>
+    <h4 class="modal-title text-muted " align="left"><strong>Livros ainda requisitados:</strong></h4>
+        <div class="container-fluid">
 
 
-
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
                 <?php
 
                 while($pessoa = mysqli_fetch_array($result1)){
-                    echo"<tr>";
 
-                    echo"<td class='align-middle -vertical, text-center'>".$pessoa['requisicaoDataLeva']."</a></td>";
-                    echo"<td class='align-middle -vertical, text-center'>".$pessoa['livroTitulo']."</a></td>";
+                    echo"<span class='align-middle -vertical, text-left'><small><strong>".$pessoa['requisicaoDataLeva'];
+                    echo "</strong></small> - </span>";
 
+                    echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'> 30 dias</span></small> ";
 
+                    echo"<br>";
 
 
                 }
 
                 ?>
 
-                </tbody>
-            </table>
         </div>
 </div>
-
+    <?php
+}
+    ?>
 
 
 
