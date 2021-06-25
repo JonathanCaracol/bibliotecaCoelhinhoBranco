@@ -42,7 +42,7 @@ drawTop(1,HOME);
                 echo"<td>".$dados['utilizadorNome']."</td>";
                 echo"<td>".$dados['requisicaoDataLeva'].")</td>";
                 echo"<td>".$dados['livroEstado']."</td>";
-                echo"<td><a style='color: #ffc107;' href=\"AJAXdevolve.php?id=".$dados['requisicaoId']."\" class=\"btn \"><span class=\"fas fa-edit\" ></span> <span>Devolver </span></a>
+                echo"<td><a style='color: #ffc107;' onclick='confirmaElimina(".$dados['requisicaoId'].")' class=\"btn \"><span class=\"fas fa-edit\" ></span> <span>Devolver </span></a>
         </td>";
 
                 echo"</tr>";
@@ -55,10 +55,13 @@ drawTop(1,HOME);
     </div>
 </section>
 
-
-
-
-
+<script>
+    function confirmaElimina(id){
+        if (confirm('Tem a certeza que quer devolver o livro?')) {
+            window.location.href ="AJAXdevolve.php?id="+id;
+        }
+    }
+</script>
 </body>
 </html>
 

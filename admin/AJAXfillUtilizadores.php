@@ -23,7 +23,7 @@ $txt=addslashes($_POST['txt']);
     while($dados=mysqli_fetch_array($res)){
         echo"<tr>";
         echo"<th scope=\"row\">".$dados['utilizadorId']."</th>";
-        echo"<td>".$dados['utilizadorNome']."</td>";
+        echo"<td><a href=\"perfilUtilizador.php?id=".$dados['utilizadorId']."\">".$dados['utilizadorNome']."</a></td>";
         echo"<td>".$dados['utilizadorCategoria']."</td>";
         echo"<td>".$dados['utilizadorTipoNome']."</td>";
         echo"<td><a href=\"editaUtilizador.php?id=".$dados['utilizadorId']."\" class=\"btn btn-info\"><span class=\"fas fa-edit\"></span> <span>Editar </span></a>

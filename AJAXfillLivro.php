@@ -25,7 +25,15 @@ $dados = mysqli_fetch_array($res);
                     <?php if ($versao == 1) { ?>
                         <h5 class="card-body">
                             <p><strong>Numero:</strong> <?php echo $dados['livroNumero'] ?><br></p>
-                            <p><strong>Autor:</strong> <?php echo $dados['autorNome'] ?><br></p>
+                            <p><strong>Autor:</strong> <?php
+                                echo $dados['autorNome'];
+                                while ($dados2=mysqli_fetch_array($res)){
+                                    echo ', '.$dados2['autorNome'];
+                                }
+
+
+                                ?><br></p>
+
                             <strong>Género:</strong> <?php echo $dados['generoNome'] ?><br></p>
                             <p class="text-right text-<?php echo $dados['livroEstado'] == 'disponivel' ? 'success' : 'danger'; ?>"><?php echo $dados['livroEstado'] ?></p>
                             <strong>Sinopse:</strong><br>
