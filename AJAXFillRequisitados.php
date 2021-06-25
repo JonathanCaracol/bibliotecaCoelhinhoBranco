@@ -64,23 +64,6 @@ if(mysqli_affected_rows($con)){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 /*
     include_once("../common.php");

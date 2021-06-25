@@ -3,6 +3,7 @@ include_once ("includes/body.inc.php");
 include_once ("../common.php");
 $txt=addslashes($_POST['txt']);
 ?>
+
     <table class="table table-sm table-dark">
 
         <thead>
@@ -25,7 +26,7 @@ $txt=addslashes($_POST['txt']);
             echo"<tr>";
             echo"<th scope=\"row\">".$dados['livroId']."</th>";
             echo"<td><img src=\"../".GLOBALPATH.$dados['livroCapaURL']."\" width=\"60\"> </td>";
-            echo"<td>".$dados['livroTitulo']."</td>";
+            echo"<td><a href=\"livroHistorico.php?id=".$dados['livroId']."\">".$dados['livroTitulo']."</a></td>";
             echo"<td>".substrNew($dados['livroSinopse'],223)."(...)</td>";
             echo"<td>".$dados['livroEstado']."</td>";
             echo"<td><a href=\"editaLivro.php?id=".$dados['livroId']."\" class=\"btn btn-info\"><span class=\"fas fa-edit\"></span> <span>Editar </span></a>
