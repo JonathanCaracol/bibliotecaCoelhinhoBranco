@@ -50,7 +50,7 @@ $dadosUt=mysqli_fetch_array($res);
 
                     </div>
                     <button type="submit" class="btn btn-primary">Edita</button>
-                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger" href="utilizadores.php">Cancelar</button>
+                    <button type="button" onclick="voltaPaginaAtras()" class="btn btn-danger" href="utilizadores.php">cancelar</button>
 
                     <input type="hidden" name="id" value="<?php echo $dadosUt['utilizadorId']?>">
                 </form>
