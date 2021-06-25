@@ -9,7 +9,8 @@ function fillTableLivros(txt='') {
             $('#tableContent').html(result);
         }
     });
-}function fillTableAutores(txt='') {
+}
+function fillTableAutores(txt='') {
     $.ajax({
         url: "AJAXFillAutores.php",
         type: "post",
@@ -24,6 +25,18 @@ function fillTableLivros(txt='') {
 function fillTableUtilizadores(txt='') {
     $.ajax({
         url: "AJAXFillUtilizadores.php",
+        type: "post",
+        data: {
+            txt: txt
+        },
+        success: function (result) {
+            $('#tableContent').html(result);
+        }
+    });
+}
+function fillAutores(txt='') {
+    $.ajax({
+        url: "AJAXAutores.php",
         type: "post",
         data: {
             txt: txt

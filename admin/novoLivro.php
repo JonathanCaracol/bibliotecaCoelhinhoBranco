@@ -1,8 +1,7 @@
 <?php
 include_once ("includes/body.inc.php");
-drawTop(MENUOFF);
+drawTop(MENUOFF,AUTORES2);
 ?>
-
 
 
 
@@ -30,24 +29,37 @@ drawTop(MENUOFF);
                         </div>
 
                     </div>
+                    <!--
                     <div class="form-group">
                         <label for="titulo">Autores</label>
 
-                        <select class="form-control" name="autores" list="autoresNome">
-                            <option value="-1">Escolha um autor...</option>
+                        <input type="text" class="form-control" name="autores" list="autoresNome">
+
                             <datalist id="autoresNome">
                                 <?php
-                                $sql="select * from 06hugo_autores";
-                                $res=mysqli_query($con,$sql);
-                                while($dados=mysqli_fetch_array($res)){
-                                    echo "<option value=\"".$dados['autorId']."\">".$dados['autorNome']."</option>";
-                                }
+                                //   $sql="select * from 06hugo_autores";
+                                //  $res=mysqli_query($con,$sql);
+                                //  while($dados=mysqli_fetch_array($res)){
+                                //      echo "<option value=\"".$dados['autorId']."\">".$dados['autorNome']."</option>";
+                                //  }
                                 ?>
                             </datalist>
-                        </select>
+                        </input>
                     </div>
+                    -->
+                    <div class="form-group">
+                        <label for="titulo">Autores</label>
+                        <div class="form-row">
+                            <div class="col-5">
+                                <input id="search" class="form-control" placeholder="Pesquisa" >
 
+                            </div>
+                            <div class="col-7" id="tableContent">
 
+                            </div>
+                        </div>
+
+                    </div>
 
 
                     <div class="form-group">

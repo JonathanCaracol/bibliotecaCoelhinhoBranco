@@ -52,6 +52,16 @@ function drawTop($menu = MENUON, $opt=HOME)
                 }
                 ?>
                 <?php
+                if ($opt == AUTORES2){
+                ?>
+                $('#search').keyup(function () {
+                    fillAutores(this.value);
+                });
+                fillAutores();
+                <?php
+                }
+                ?>
+                <?php
                 if ($opt == UTILIZADORES){
                 ?>
                     $('#search').keyup(function () {
