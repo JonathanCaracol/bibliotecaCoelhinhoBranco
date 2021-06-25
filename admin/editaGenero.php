@@ -16,12 +16,12 @@ $dados=mysqli_fetch_array($res);
     <div class="row">
 
         <div class="col-6 mx-auto">
-            <span class="display-4">Edita género</span>
+            <span class="display-4">Edita gÃ©nero</span>
             <div class="container-fluid">
                 <form action="confirmaEditaGenero.php" method="post">
                     <div class="form-group">
                         <label for="nome">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do género" value="<?php echo $dados['generoNome'] ?>">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do gÃ©nero" value="<?php echo $dados['generoNome'] ?>">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Edita</button>

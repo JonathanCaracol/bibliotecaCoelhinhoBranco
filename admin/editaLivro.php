@@ -91,7 +91,7 @@ $dadosUt=mysqli_fetch_array($res);
                     <div class="form-group">
                         <label for="titulo">Géneros</label>
                         <select class="form-control" name="genero">
-                            <option value="-1">Escolha um genero</option>
+                            <option value="-1">Escolha um género</option>
                             <?php
                             $sql="select * from 06hugo_generos";
                             $res=mysqli_query($con,$sql);

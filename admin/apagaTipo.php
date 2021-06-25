@@ -30,13 +30,13 @@ $dados=mysqli_fetch_array($res);
                         <input type="text" class="form-control" id="nome" name="nome" disabled value="<?php echo $dados['utilizadorTipoNome'] ?>">
                     </div>
                     <div class="form-group">
-                        <label for="descricao">Nº de utilizadores</label>
+                        <label for="descricao">NÂº de utilizadores</label>
                         <input type="text" class="form-control" id="descricao" name="descricao" disabled  value="<?php echo $dados['numUtilizadores']  ?>">
                     </div>
                     <?php
                     if($dados['numUtilizadores']>0) {
                         ?>
-                        <span class="text-danger ">Não pode apagar! Já existem utilizadores com esse tipo. </span><br>
+                        <span class="text-danger ">NÃ£o pode apagar! JÃ¡ existem utilizadores com esse tipo. </span><br>
                         <button type="submit" class="btn btn-warning">Cancelar</button>
                         <?php
                     }

@@ -881,7 +881,7 @@ include_once("common.php");
         <div class="modal-dialog modal-side modal-top-right " role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title w-100">Devolu��es</h4>
+                    <h4 class="modal-title w-100">Devoluções</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

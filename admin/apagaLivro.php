@@ -37,7 +37,7 @@ $dados=mysqli_fetch_array($res);
                     <?php
                     if($dados['numLivros']>0) {
                         ?>
-                        <span class="text-danger ">N�o pode apagar! Autor j� com livros. </span><br>
+                        <span class="text-danger ">No pode apagar! Autor já com livros. </span><br>
                         <button type="submit" class="btn btn-warning">Cancelar</button>
                         <?php
                     }

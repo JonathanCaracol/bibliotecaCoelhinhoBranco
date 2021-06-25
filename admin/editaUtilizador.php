@@ -45,7 +45,7 @@ $dadosUt=mysqli_fetch_array($res);
                     <div class="a">
                         <label for="categoria">Tipo</label><br>
                         <input type="radio"  id="categoria" name="categoria" value="professor" <?php echo ($dadosUt['utilizadorCategoria']=='professor'?' checked ':'')?> > Professor<br>
-                        <input type="radio"  id="categoria" name="categoria" value="funcionario" <?php echo ($dadosUt['utilizadorCategoria']=='funcionario'?' checked ':'')?> > Funcion·rio<br>
+                        <input type="radio"  id="categoria" name="categoria" value="funcionario" <?php echo ($dadosUt['utilizadorCategoria']=='funcionario'?' checked ':'')?> > Funcion√°rio<br>
                         <input type="radio"  id="categoria" name="categoria" value="aluno" <?php echo ($dadosUt['utilizadorCategoria']=='aluno'?' checked ':'')?> > Aluno<br>
 
                     </div>

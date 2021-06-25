@@ -128,7 +128,7 @@
 <body>
 
 <div class="header">
-    <h1>Requesições</h1>
+    <h1>Requisições</h1>
     <p>Procura e pede já o teu livro</p>
 </div>
 

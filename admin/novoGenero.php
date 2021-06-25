@@ -11,12 +11,12 @@ drawTop(MENUOFF);
     <div class="row">
 
         <div class="col-6 mx-auto">
-            <span class="display-4">Novo género</span>
+            <span class="display-4">Novo gÃ©nero</span>
             <div class="container-fluid">
                 <form action="confirmaNovoGenero.php" method="post">
                     <div class="form-group">
                         <label for="nome">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do género">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do gï¿½nero">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Adiciona</button>

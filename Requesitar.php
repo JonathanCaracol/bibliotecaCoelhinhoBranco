@@ -12,7 +12,7 @@ $result=mysqli_query($con,$sql);
     <br>
     <br>
 
-    <h1>Requesitar livros</h1>
+    <h1>Requisitar livros</h1>
 
     <input type="button" value="Voltar ao Menu" onclick="javascript: location.href='index.php';" />
     <form   name="f1" action="confirmaRequesitar.php" method="post">

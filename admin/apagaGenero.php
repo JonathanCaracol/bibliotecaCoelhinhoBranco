@@ -22,7 +22,7 @@ $dados=mysqli_fetch_array($res);
     <div class="row">
 
         <div class="col-6 mx-auto">
-            <span class="display-4">Elimina género</span>
+            <span class="display-4">Elimina gÃ©nero</span>
             <div class="container-fluid">
                 <form action="confirmaApagaGenero.php" method="post">
                     <div class="form-group">
@@ -30,13 +30,13 @@ $dados=mysqli_fetch_array($res);
                         <input type="text" class="form-control" id="nome" name="nome" disabled value="<?php echo $dados['generoNome'] ?>">
                     </div>
                     <div class="form-group">
-                        <label for="descricao">Nº de Livros</label>
+                        <label for="descricao">NÂº de Livros</label>
                         <input type="text" class="form-control" id="descricao" name="descricao" disabled  value="<?php echo $dados['numLivros']  ?>">
                     </div>
                     <?php
                     if($dados['numLivros']>0) {
                         ?>
-                        <span class="text-danger ">N?o pode apagar! Género já com livros associados. </span><br>
+                        <span class="text-danger ">NÃ£o pode apagar! GÃ©nero jÃ¡ com livros associados. </span><br>
                         <button type="submit" class="btn btn-warning">Cancelar</button>
                         <?php
                     }

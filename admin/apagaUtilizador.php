@@ -31,13 +31,13 @@ $dados=mysqli_fetch_array($res);
                         <input type="text" class="form-control" id="nome" name="nome" disabled value="<?php echo $dados['utilizadorNome'] ?>">
                     </div>
                     <div class="form-group">
-                        <label for="descricao">Nº Requisições</label>
+                        <label for="descricao">NÂº RequisiÃ§Ãµes</label>
                         <input type="text" class="form-control" id="descricao" name="descricao" disabled  value="<?php echo $dados['numLivros']  ?>">
                     </div>
                     <?php
                     if($dados['numLivros']>0) {
                         ?>
-                        <span class="text-danger ">Não pode apagar! Utilizador já com requisições. </span><br>
+                        <span class="text-danger ">NÃ£o pode apagar! Utilizador jÃ¡ com requisiÃ§Ãµes. </span><br>
                         <button type="submit" class="btn btn-warning">Cancelar</button>
                         <?php
                     }

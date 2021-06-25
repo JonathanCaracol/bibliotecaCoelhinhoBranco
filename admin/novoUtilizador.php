@@ -38,7 +38,7 @@ drawTop(MENUOFF);
                     <div class="a">
                         <label for="categoria">Tipo</label><br>
                         <input type="radio"  id="categoria" name="categoria" value="professor"> Professor<br>
-                        <input type="radio"  id="categoria" name="categoria" value="funcionario"> Funcion·rio<br>
+                        <input type="radio"  id="categoria" name="categoria" value="funcionario"> Funcion√°rio<br>
                         <input type="radio"  id="categoria" name="categoria" value="aluno" checked> Aluno
 
                     </div>
