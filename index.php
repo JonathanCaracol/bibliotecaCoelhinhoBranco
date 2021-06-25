@@ -756,7 +756,7 @@ include_once("common.php");
             <div class="section-heading text-center">
 
 
-                <p class="text-muted display-4">Lista de novidades</p>
+                <p class="text-muted display-4">Lista de livros</p>
 
 
             </div>
