@@ -25,13 +25,30 @@ if(mysqli_affected_rows($con)){
 
                 <?php
 
+
+
+
                 while($pessoa = mysqli_fetch_array($result1)){
+
+                    $data_inicio = new DateTime($pessoa['requisicaoDataLeva']);
+                $data_fim = new DateTime($pessoa['requisicaoDataTraz']);
+
+                // Resgata diferença entre as datas
+                $dateInterval = $data_inicio->diff($data_fim);
+
+
+
+
+
 
                     echo"<span class='align-middle -vertical, text-left'><small><strong>".$pessoa['requisicaoDataLeva'];
                     echo "</strong></small> - </span>";
+                    if($pessoa){
 
-                    echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'> 30 dias</span></small> ";
 
+
+                     echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'>".$dateInterval->days. 'dias'."</span></small> ";
+                    }
                     echo"<br>";
 
 
