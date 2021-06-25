@@ -43,12 +43,16 @@ if(mysqli_affected_rows($con)){
 
                     echo"<span class='align-middle -vertical, text-left'><small><strong>".$pessoa['requisicaoDataLeva'];
                     echo "</strong></small> - </span>";
-                    if($pessoa){
 
 
 
-                     echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'> ".$dateInterval->days. 'dias'."</span></small> ";
-                    }
+
+                    if($dateInterval->days > 30){
+                        echo"<small><span class='align-middle -vertical, text-left, '>".$pessoa['livroTitulo']."</span><span class=' text-danger'> ".$dateInterval->days. ' dias'."</span></small> ";
+
+                    }else
+                        echo"<small><span class='align-middle -vertical, text-left, '>".$pessoa['livroTitulo']."</span><span class=' text-success'> ".$dateInterval->days. ' dias'."</span></small> ";
+
                     echo"<br>";
 
 
