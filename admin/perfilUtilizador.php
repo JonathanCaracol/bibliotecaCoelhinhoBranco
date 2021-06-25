@@ -64,7 +64,13 @@ $result1=mysqli_query($con,$sql1 );
                                 if($pessoa['requisicaoDataTraz'] <> null){
                                     echo "</small> - </span>";
                                     echo"<small><span class='align-middle -vertical, text-left'><strong>Já foi devolvido</strong></span></small>";
-                                }
+                                }else
+                                    if($dateInterval->days > 30){
+                                        echo"<small><span class='align-middle -vertical, text-left, '>".$pessoa['livroTitulo']."</span><span class=' text-danger'> ".$dateInterval->days. ' dias'."</span></small> ";
+
+                                    }else
+                                        echo"<small><span class='align-middle -vertical, text-left, '>".$pessoa['livroTitulo']."</span><span class=' text-success'> ".$dateInterval->days. ' dias'."</span></small> ";
+
                                 echo"<br>";
                             }
                             ?>
