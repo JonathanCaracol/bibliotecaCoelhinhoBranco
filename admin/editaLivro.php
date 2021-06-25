@@ -2,7 +2,7 @@
 $id=intval($_GET['id']);
 include_once ("includes/body.inc.php");
 include_once ("common.php");
-drawTop(MENUOFF);
+drawTop(MENUOFF,AUTORES3,$id);
 $sql="SELECT
 06hugo_livros.livroId,
 06hugo_livros.livroTitulo,
@@ -63,30 +63,21 @@ $dadosUt=mysqli_fetch_array($res);
                         <label class="custom-file-label" for="validatedCustomFile">Escolha...</label>
 
                     </div>
+
                     <div class="form-group">
                         <label for="titulo">Autores</label>
-                        <select class="form-control" name="autor">
-                            <option value="-1">Escolha um autor</option>
-                            <?php
-                            $sql="select * from 06hugo_autores";
-                            $res=mysqli_query($con,$sql);
-                            while($dados=mysqli_fetch_array($res)){
+                        <div class="form-row">
+                            <div class="col-5">
+                                <input id="search" class="form-control" placeholder="Pesquisa" >
 
-                                if($dadosUt['autorId']==$dados['autorId']){
-                                ?>
-                                    <option selected value="<?php echo $dados['autorId']?>"><?php echo $dados['autorNome']?></option>
-                                <?php
-                                }
-                                else{
-                                ?>
-                                    <option value="<?php echo $dados['autorId']?>"><?php echo $dados['autorNome']?></option>
-                                <?php
-                                }
-                            }
-                            ?>
+                            </div>
+                            <div class="col-7" id="tableContent">
 
-                        </select>
+                            </div>
+                        </div>
+
                     </div>
+
 
                     <div class="form-group">
                         <label for="titulo">Géneros</label>

@@ -6,7 +6,7 @@ include_once("config.inc.php");
 
 $con = mysqli_connect(C_HOST, C_USER, C_PASS, C_DB);
 
-function drawTop($menu = MENUON, $opt=HOME)
+function drawTop($menu = MENUON, $opt=HOME, $id=-1)
 
 { ?>    <!DOCTYPE html>
 
@@ -71,6 +71,15 @@ function drawTop($menu = MENUON, $opt=HOME)
                 <?php
                 }
                 ?>
+                <?php if ($opt == AUTORES3){
+                        ?>
+                    $('#search').keyup(function () {
+                        fillAutoresEdita(this.value);
+                    });
+                    fillAutoresEdita('',<?php echo $id?>);
+                    <?php
+                    }
+                    ?>
             })
         </script>
 
