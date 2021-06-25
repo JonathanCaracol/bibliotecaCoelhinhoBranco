@@ -47,7 +47,7 @@ if(mysqli_affected_rows($con)){
 
 
 
-                     echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'>".$dateInterval->days. 'dias'."</span></small> ";
+                     echo"<small><span class='align-middle -vertical, text-left'>".$pessoa['livroTitulo']."</span><span class='text-danger'> ".$dateInterval->days. 'dias'."</span></small> ";
                     }
                     echo"<br>";
 
